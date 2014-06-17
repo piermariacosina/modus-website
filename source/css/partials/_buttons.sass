@@ -1,0 +1,30 @@
+/* --------------------------------------------------------------------------------------
+ *+
+ *+ BUTTONS
+ *+
+ *--------------------------------------------------------------------------------------
+
+.btn
+  +lh(38px)
+  display: inline-block
+  text-align: center
+  padding: 0 10px
+  color: $btn-clr
+  background: #9b4068 
+  border: none
+
+  +transition(all 0.3s ease)
+  font-family: $base-font
+  font-size: $base-font-size
+  font-weight: 300
+  &:hover
+    background: #ffb9d4
+    color: $btn-clr
+  &.lightgreen
+    background-color: #1ed2d0
+    +box-sizing(content-box)
+    &:hover
+      background-color: #21c4c4
+  // &.small {  }
+  // &.medium {  }
+  // &.large {  }

@@ -1,0 +1,318 @@
+.loader
+  .loading
+.layout
+  = partial "partials/header"
+  / end of header
+  .content
+    .subheader#subheader
+      .container
+              
+        %a.logo{href: "#top"}
+          = image_tag "modus_logo-09.png", class:"bttrlazyloading"
+        .clearfix
+        %a.down{href: "#clients"}
+      / end of container in subheader
+    / end of subheader
+
+    = partial "partials/clients"
+    / End of #clients
+    = partial "partials/app"
+  
+
+    / Section Works
+    %section#work
+      .container
+        %h2 Marchi
+        %p 
+          Modus profuma la tua vita con le essenze piu’ ricercate,<br /> 
+          cura il tuo corpo con i prodotti più indicati per la tua pelle e inventa con te i trucchi piu’ personali.<br />
+          Se la bellezza fugge, Modus la ferma!
+        / Begin of  .category
+        .filter_wrap
+          %span Select category
+          / Begin of #filter_wrap
+          %ul#filters
+            %li.active
+              %a{"data-filter" => "*"} All
+            %li
+              %a{"data-filter" => ".white, .yellow"} Branding
+            %li
+              %a{"data-filter" => ".blue, .red, .white"} Design
+            %li
+              %a{"data-filter" => ".saphir, .blue, .green"} Development
+            %li
+              %a{"data-filter" => ".blue, .green"} Printing
+            / data filters examplese: ".design, .branding, :not(.branding)"
+          / End of #filter_wrap
+        / End of .category
+        / Begin of #filter_content
+        #filter_content
+          .red
+            = image_tag "marchi/Alyssa.jpg", class:"bttrlazyloading"
+          .white
+            = image_tag "marchi/Acqua-di-Parma.jpg", class:"bttrlazyloading"
+          .saphir
+            = image_tag "marchi/Armani.jpg", class:"bttrlazyloading"
+          .blue
+            = image_tag "marchi/Azzaro.jpg", class:"bttrlazyloading"
+          .green
+            = image_tag "marchi/Elie-Saab.jpg", class:"bttrlazyloading"
+          .yellow
+            = image_tag "marchi/Kenzo.jpg", class:"bttrlazyloading"
+          .red
+            = image_tag "marchi/Alyssa.jpg", class:"bttrlazyloading"
+          .white
+            = image_tag "marchi/Acqua-di-Parma.jpg", class:"bttrlazyloading"
+          .saphir
+            = image_tag "marchi/Armani.jpg", class:"bttrlazyloading"
+          .blue
+            = image_tag "marchi/Azzaro.jpg", class:"bttrlazyloading"
+          .green
+            = image_tag "marchi/Lancome.jpg", class:"bttrlazyloading"
+          .yellow
+            = image_tag "marchi/Narciso-Rodriguez.jpg", class:"bttrlazyloading"
+        / End of #filter_content
+      / end of container in works section
+    / end of work
+    .separator
+
+    / Begin of #team
+    %section#team
+
+      / Begin of  .container
+      .container
+        %h2 I nostri servizi fanno la differenza
+        %p 
+          Entra nel mondo di Modus: un modo di essere bella a modo tuo.<br />
+          Vieni a scoprire i servizi che Modus ti offre: qui ogni tuo sogno può diventare realtà! 
+        / Begin of  .slider2
+        .slider2
+          .slide
+            %a.no1
+              = image_tag "servizi/Comp_61154935.jpg", class:"bttrlazyloading"
+              %i
+            %h5 HAI SCELTO IL COLORE SBAGLIATO?
+            .arrow_up.no1
+          .slide
+            %a.no2
+              = image_tag "servizi/Comp_48063372.jpg", class:"bttrlazyloading"
+              %i
+            %h5 VUOI IL PARERE DI UNO SPECIALISTA?
+            .arrow_up.no2
+          .slide
+            %a.no3
+              = image_tag "servizi/Comp_64919288.jpg", class:"bttrlazyloading"
+              %i
+            %h5 VOGLIA DI NOVITÀ?<br /><br />
+            .arrow_up.no3
+          .slide
+            %a.no4
+              = image_tag "servizi/Comp_45498191.jpg", class:"bttrlazyloading"
+              %i
+            %h5 VUOI PROVARE UN TRATTAMENTO PROFESSIONALE?
+            .arrow_up.no4
+          .clear
+        / End of .slider2
+        / Begin of  .slider2_popups
+        .slider2_popups
+          .popup-item.no1
+            %h6 HAI SCELTO IL COLORE SBAGLIATO?
+            %p 
+              Se una volta a casa non sei più sicura del tuo acquisto, non stressarti! Riportaci il prodotto integro nella sua confezione: potrai sostituirlo con un altro più adatto senza alcun problema.
+
+            %b.close Chiudi
+          .popup-item.no2
+            %h6 VUOI IL PARERE DI UNO SPECIALISTA?
+            %p 
+              Da Modus abbiamo un segreto: formare ed aggiornare costantemente le nostre consulenti per fornirti un servizio impeccabile e poter rispondere con competenza e professionalità a ogni tuo dubbio sui prodotti in vendita.
+
+            %b.close Chiudi
+          .popup-item.no3
+            %h6 VOGLIA DI NOVITÀ?
+            %p 
+              Cambia beauty routine senza paura di sbagliare! Da Modus ti aspettano tanti campioni omaggio per testare sempre nuovi prodotti e fragranze. 
+            %b.close Chiudi
+          .popup-item.no4
+            %h6 VUOI PROVARE UN TRATTAMENTO PROFESSIONALE?
+            %p 
+              Vieni da Modus e affidati al nostro personale specializzato. Prenotando gratuitamente il tuo appuntamento presso uno dei nostri negozi riceverai un trattamento viso o una seduta di make-up con i consigli di bellezza delle nostre assistenti
+            %b.close Chiudi
+          
+
+        / End of .slider2_popups
+      / End of .container
+    / End of #team
+    = partial "partials/club"
+    / Section About
+    %section#about
+      / Begin of #map
+      #wrapper
+        #map
+      
+      / End of #map
+      .container
+        %h2 LISTA DEI NEGOZI
+        %p
+          Gli indirizzi della bellezza, sono sempre vicini ai tuoi desideri e alle tue necessità:<br />
+          la bellezza a portata di mano a quattro passi da casa tua. Vieni, vedi: Modus!
+      .container
+        %button.btn#lista_negozi
+          Visualizza lista
+        %ul#lista
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA1 - OUTLET
+            %p 
+              <span class="address">Via roma, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA2 - OUTLET
+            %p 
+              <span class="address">Via parma, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via saluzzo, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via dei mille, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via della rocca, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via salerno, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via pianezza, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via torino, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+
+
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via trieste, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via battisti, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via certosa, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via carducci, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via della Moda, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via della Moda, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+          %li.shop
+            = image_tag "shops/s1-14.jpg", class:"bttrlazyloading"
+            %h6 
+              SERRAVALLE SCRIVIA - OUTLET
+            %p 
+              <span class="address">Via della Moda, 1</span><br />
+              <span class="desc">Siamo aperti 10:00 - 21:00<br />
+              Giorni di chiusura nessuno<br />
+              Telefono 0143/686370</span>
+
+          
+        / end of list of services
+      #parallax-one.parallax{style: "background-image:url(images/flowers.jpg);"}
+      / end of container in about section
+    
+    / end of about
+    = partial "partials/story"
+
+
+
+      
+
+    / End of #contact
+  / end of content
+  / Begin of  .to_the_top
+  #to_the_top
+  / End of .to_the_top
+/ end of layout
+= partial "partials/footer"

@@ -1,0 +1,25 @@
+%section#club
+  .container
+    
+    .left
+      %h2
+        MODUS<br />CLUB
+      %h3
+        Modus premia la tua fedeltà con la bellezza<br />
+      %p
+        Non lasciarti sfuggire i privilegi riservati alle clienti Modus!<br /><br />
+
+        Entra in un punto vendita e sottoscrivi gratuitamente la Modus VipCard: è facile da ottenere, non scade e ti da accesso a un mondo di meravigliosi vantaggi. Per ogni acquisto effettuato, infatti, accumuli punti che puoi utilizzare in qualsiasi momento per ottenere sconti o buoni spesa per i tuoi acquisti in store.<br /><br />
+
+        Cogli l’opportunità di aggiungere ancora più glamour alla tua vita.
+    .right
+      =image_tag "card-13.png", class:"bttrlazyloading"
+      %h3
+        Richiedi la modus card<br />
+      %form.contact-form{action: "form_data.php", method: "post", novalidate: ""}
+          
+        %input#name.form-name{name: "name", placeholder: "Name", type: "text"}/
+        %input#email.form-email{name: "email", placeholder: "Email", type: "email"}/
+
+        %button.btn Richiedi
+    .clear

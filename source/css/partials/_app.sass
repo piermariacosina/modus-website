@@ -1,0 +1,47 @@
+div.separator
+  width: 100%
+  position: relative
+  height: image-height("Modus_separator.png")
+  background: image-url("Modus_separator.png") repeat-x top left
+#app
+
+  .left 
+    padding-top: 100px
+    float: none
+  .right
+    padding-top: 0
+    float: none
+    padding-bottom: 100px
+    text-align: center
+
+  .title
+    background-color: black
+
+    h2
+      color: white
+      text-align: left
+      font-size: px-to-em(18px,16px)
+      padding: 10px 20px
+      letter-spacing: 1px
+  p
+    text-align: left
+    font-size: px-to-em(14px,16px)
+  img.google
+    width: auto
+    height: 40px
+
+.parallax
+  width: 100%
+  padding: 0
+  margin: 0
+  background-attachment: fixed
+  background-repeat: no-repeat
+  color: #ffffff
+  text-transform: uppercase
+
+.parallax-mobile
+  background-position: 50% 0px !important
+  background-attachment: scroll !important
+
+#parallax-one
+  height: 120px 		

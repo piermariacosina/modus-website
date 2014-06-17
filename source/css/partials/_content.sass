@@ -1,0 +1,586 @@
+#wrapper
+  margin: 0
+
+.content
+  width: 100%
+  position: relative
+  top: auto !important
+  padding-top: 50px
+  .subheader
+    width: 100%
+    // height: 416px;
+    height: auto
+    display: block
+    padding: 50px 0 0
+    +background(image-url("flowers.jpg", false, false) no-repeat 50% 50%)
+
+    position: relative
+    
+    //parallax effect
+    text-align: center
+    border-bottom: 1px solid black
+    +background-size(cover)
+    -ms-behavior: url(../js/backgroundsize.htc)
+    h1
+      // padding: 90px 20px 0;
+      padding: 0 20px 0
+    span
+      +background(image-url("line.png", false, false) no-repeat 100% 50%)
+      display: inline-block
+      margin: 0 auto 40px
+      h4
+        +background(image-url("line.png", false, false) no-repeat 0 50%)
+        display: inline-block
+        margin: 0
+    .down
+      display: block
+      +transition(none)
+      width: 60px
+      height: 60px
+      position: absolute
+      bottom: 20px
+      left: 50%
+      margin-left: -30px
+      +background(image-url("go_down.png", false, false) no-repeat 0 0)
+
+      &:hover
+        background-position: 0 -60px
+
+// @-webkit-keyframes blink {
+//     0% {
+//         opacity:1;
+//     }
+//     50% {
+//         opacity:0;
+//     }
+//     100% {
+//         opacity:1;
+//     }
+// }
+// @-moz-keyframes blink {
+//     0% {
+//         opacity:1;
+//     }
+//     50% {
+//         opacity:0;
+//     }
+//     100% {
+//         opacity:1;
+//     }
+// }
+
+@-moz-keyframes bounce
+  0%
+    -moz-transform: translateY(0)
+    transform: translateY(0)
+  20%
+    -moz-transform: translateY(0)
+    transform: translateY(0)
+  40%
+    -moz-transform: translateY(-30px)
+    transform: translateY(-30px)
+  50%
+    -moz-transform: translateY(0)
+    transform: translateY(0)
+  60%
+    -moz-transform: translateY(-15px)
+    transform: translateY(-15px)
+  80%
+    -moz-transform: translateY(0)
+    transform: translateY(0)
+  100%
+    -moz-transform: translateY(0)
+    transform: translateY(0)
+
+
+@-webkit-keyframes bounce
+  0%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+  20%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+  40%
+    -webkit-transform: translateY(-30px)
+    transform: translateY(-30px)
+  50%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+  60%
+    -webkit-transform: translateY(-15px)
+    transform: translateY(-15px)
+  80%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+  100%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+
+
+@-o-keyframes bounce
+  0%
+    -o-transform: translateY(0)
+    transform: translateY(0)
+  20%
+    -o-transform: translateY(0)
+    transform: translateY(0)
+  40%
+    -o-transform: translateY(-30px)
+    transform: translateY(-30px)
+  50%
+    -o-transform: translateY(0)
+    transform: translateY(0)
+  60%
+    -o-transform: translateY(-15px)
+    transform: translateY(-15px)
+  80%
+    -o-transform: translateY(0)
+    transform: translateY(0)
+  100%
+    -o-transform: translateY(0)
+    transform: translateY(0)
+
+
+@-ms-keyframes bounce
+  0%
+    -ms-transform: translateY(0)
+    transform: translateY(0)
+  20%
+    -ms-transform: translateY(0)
+    transform: translateY(0)
+  40%
+    -ms-transform: translateY(-30px)
+    transform: translateY(-30px)
+  50%
+    -ms-transform: translateY(0)
+    transform: translateY(0)
+  60%
+    -ms-transform: translateY(-15px)
+    transform: translateY(-15px)
+  80%
+    -ms-transform: translateY(0)
+    transform: translateY(0)
+  100%
+    -ms-transform: translateY(0)
+    transform: translateY(0)
+
+
+@keyframes bounce
+  0%
+    transform: translateY(0)
+  20%
+    transform: translateY(0)
+  40%
+    transform: translateY(-30px)
+  50%
+    transform: translateY(0)
+  60%
+    transform: translateY(-15px)
+  80%
+    transform: translateY(0)
+  100%
+    transform: translateY(0)
+
+
+section
+  padding: 40px 0
+  text-align: center
+
+#about
+  margin-top: 0
+  padding-top: 0
+  h2
+    margin: 40px 0
+  #map
+    margin-top: 0
+  img
+    width: 128px
+    height: 128px
+    display: block
+    margin: 0 auto 35px
+  h6
+    font-weight: bold
+    color: #9c4068
+  li
+    padding-top: 40px
+    border-top: 2px solid $border
+    *:last-child
+      margin-bottom: 0
+    &:first-child
+      padding-top: 0
+      border-top: 0
+
+  li+li
+    margin-top: 40px
+  .parallax
+    margin-top: 40px
+
+#work
+  background-color: white
+  .filter_wrap
+    +lh(42px)
+    +border-radius($radius)
+    +background-clip
+    background-color: #fff
+    display: inline-block
+    cursor: pointer
+    padding: 0 20px
+    min-width: 70%
+    position: relative
+    text-align: center
+    margin-bottom: 40px
+    span
+      display: block
+      b
+        width: 100%
+        margin-left: 20px
+        top: 18px
+        position: absolute
+        right: 25px
+        width: 0px
+        height: 0px
+        border-style: solid
+        border-width: 7px 4.5px 0 4.5px
+        border-color: #67727e transparent transparent transparent
+    ul
+      display: none
+      position: absolute
+      top: 100%
+      left: 0
+      width: 100%
+      background-color: #fff
+      +border-radius(0 0 $radius $radius)
+      z-index: 100000
+      a
+        display: block
+        color: $text-clr
+        &:hover
+          background-color: #E8EEF1
+    &:hover
+      +border-radius($radius $radius 0 0)
+      ul
+        // display: block;
+  #filter_content
+    margin: auto
+    div
+      width: 170px
+      height: 90px
+      overflow: hidden
+      display: block
+      margin-bottom: 15px
+      +transition(all 0.5s ease)
+      img
+        width: 100%
+        height: auto
+        +transition(all 2s ease-in-out)
+      
+      
+      &:hover
+        img
+          +scale(1.1)
+        &:before
+          +opacity(0.1)
+          visibility: visible
+        &:after
+          +opacity(1)
+          visibility: visible
+      // &.red {
+      // 	background-color: #ff605a;
+      // }
+      // &.white {
+      // 	background-color: #fff;
+      // }
+      // &.saphir {
+      // 	background-color: #1ed2d0;
+      // }
+      // &.blue {
+      // 	background-color: #3e4d5c;
+      // }
+      // &.green {
+      // 	background-color: #88d16f;
+      // }
+      // &.yellow {
+      // 	background-color: #ffcb5a;
+      // }
+
+#clients
+  
+  text-align: center
+  +background-size(cover)
+  -ms-behavior: url(../js/backgroundsize.htc)
+  *
+    color: black
+  .bx-wrapper
+    margin: 70px auto 0
+    position: relative
+    .bx-pager
+      display: none
+    .bx-controls-direction
+      position: absolute
+      left: 0
+      top: 0
+      display: block
+      height: 55px
+      width: 100%
+      a
+        +ht
+        width: 19px
+        height: 55px
+        display: block
+        position: absolute
+        top: 5px
+        +opacity(0.5)
+        &:hover
+          +opacity(1)
+        &.bx-prev
+          position: absolute
+          left: -65px
+          +background(white image-url("arrowleft.png", false, false) no-repeat 0 0)
+        &.bx-next
+          position: absolute
+          right: -64px
+          +background(white image-url("arrowright.png", false, false) no-repeat 0 0)
+  .slider1
+    font-size: 0
+    .slide
+      width: 100%
+      height: auto
+      display: block
+      &:last-child
+        border-right: none
+    a
+      height: auto
+      text-align: center
+      overflow: hidden
+      
+      &:hover
+        
+      img
+        max-width: 100%
+        
+        width: 100%
+        height: auto
+#team
+
+  +background(#FFDCE8 image-url("team_mask.png", false, false) no-repeat 50% 50%)
+  +background-size(100% 100%)
+  text-align: center
+  -ms-behavior: url(../js/backgroundsize.htc)
+  position: relative
+  z-index: 1000
+  *
+    color: #fff
+  h2
+    color: #2d2a2c
+  p
+    color: #2d2a2c
+  .bx-wrapper
+    margin: 70px auto 0
+    position: relative
+    .bx-pager
+      display: none
+  .bx-viewport
+    overflow: visible
+  .clear
+    +clearfix
+  .slide
+    text-align: center
+    margin: 0 auto
+    width: 240px
+    float: none
+    position: relative
+    &:first-child
+      margin-top: 0
+    & > a
+      
+      border: 11px solid #fff
+      width: 204px
+      height: 204px
+      // @include bs;
+      background-color: #fff
+      box-sizing: padding-box
+      display: block
+      overflow: hidden
+      position: relative
+      display: block
+      margin: 0 auto 15px
+      cursor: pointer
+      // background-origin:padding-box;
+      img
+        
+        overflow: hidden
+        width: 204px
+        height: auto
+      i
+        visibility: hidden
+        +opacity(0)
+        
+        +transition(all 0.3s ease-in-out)
+        position: absolute
+        left: 0
+        top: 0
+        width: 204px
+        height: 204px
+        display: block
+        +background(rgba(62, 77, 92, 0.5) image-url("eye.png", false, false) no-repeat 50% 50%)
+        .ie8 &
+          visibility: visible
+          +opacity(1)
+          display: none
+      &:hover
+        i
+          visibility: visible
+          +opacity(1)
+          // background-color: rgba(62,77,92, .5);
+          z-index: 400
+          .ie8 &
+            display: block
+    h5
+      height: 80px
+    h5, p
+      margin-bottom: 0
+      color: #2d2a2c
+    .arrow_up
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
+      height: 16px
+      visibility: hidden
+      +opacity(0)
+      +background(image-url("arrow_up.png", false, false) no-repeat 50% 0)
+      +transition(all 0.4s ease)
+      zoom: 1
+      &.active-arrow
+        visibility: visible
+        +opacity(1)
+  .slider2_popups
+    position: relative
+  .popup-item
+    position: absolute
+    top: 20px
+    left: 0
+    visibility: hidden
+    +opacity(0)
+    
+    
+    
+    background-color: #9b4068
+    z-index: 500
+    padding: 20px
+    text-align: left
+    +transition(all 0.4s ease)
+    +bs
+    zoom: 1
+    &.active-popup
+      visibility: visible
+      +opacity(1)
+    *
+      color: #fff !important
+    h6
+      font-weight: 700
+      font-size: 16px
+      padding-bottom: 15px
+    p
+      padding: 15px 0
+      border-top: 1px solid #fff
+      border-bottom: 1px solid #fff
+      margin-bottom: 20px
+    b
+      display: inline-block
+      cursor: pointer
+      padding-left: 15px
+      +background(image-url("close.png", false, false) no-repeat 0 50%)
+  .bx-controls-direction
+    position: absolute
+    left: 0
+    top: 23%
+    display: block
+    height: 26px
+    width: 100%
+    a
+      +ht
+      width: 19px
+      height: 55px
+      display: block
+      position: absolute
+      top: 5px
+      +opacity(0.5)
+      &:hover
+        +opacity(1)
+      &.bx-prev
+        position: absolute
+        left: -65px
+        +background(image-url("arrowleft.png", false, false) no-repeat 0 0)
+      &.bx-next
+        position: absolute
+        right: -64px
+        +background(image-url("arrowright.png", false, false) no-repeat 0 0)
+#map
+  width: 100%
+  height: 620px
+  display: block
+
+
+#contact
+  padding-bottom: 0
+  h2
+    color: white
+  p
+    color: white
+
+  .container
+    position: relative
+    z-index: 10
+  form
+    overflow: hidden
+    text-align: left
+    position: relative
+    .left
+      width: 100%
+      position: relative
+    .btn
+      border: none
+      padding: 5px 40px
+      height: auto
+      text-align: left
+  
+  .contact_info
+    width: 280px
+    
+    +background-clip
+    background-color: #fff
+    +box-shadow(0 1px 1px rgba(1, 1, 1, 0.2))
+    position: absolute
+    top: 0
+    display: block
+    z-index: 100
+    left: 50%
+    top: -220px
+    padding: 30px 20px
+    +bs
+    margin-left: -140px
+    dt
+      margin-top: 15px
+      &:first-child
+        margin-top: 0
+    dd
+      a
+        color: $text-clr
+  #order_now
+    background-color: #ff605a
+    padding: 90px 0 40px
+    display: block
+
+#to_the_top
+  position: fixed
+  bottom: 30px
+  right: 30px
+  display: none
+  width: 60px
+  height: 60px
+  cursor: pointer
+  +background(image-url("top.png", false, false) no-repeat 0 0)
+  z-index: 1000000
+  &:hover
+    background-position: 0 -60px

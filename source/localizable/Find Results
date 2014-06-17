@@ -1,0 +1,210 @@
+Searching 130 files for "cass"
+
+/Users/piermariacosina/Documents/middleman/modus-website/source/localizable/index.html.haml:
+    9                
+   10          %a.logo{href: "#top"}
+   11:           = image_tag "modus_logo-09.png", cass:"bttrlazyloading"
+   12          .clearfix
+   13          %a.down{href: "#clients"}
+   ..
+   49          #filter_content
+   50            .red
+   51:             = image_tag "marchi/Alyssa.jpg", cass:"bttrlazyloading"
+   52            .white
+   53:             = image_tag "marchi/Acqua-di-Parma.jpg", cass:"bttrlazyloading"
+   54            .saphir
+   55:             = image_tag "marchi/Armani.jpg", cass:"bttrlazyloading"
+   56            .blue
+   57:             = image_tag "marchi/Azzaro.jpg", cass:"bttrlazyloading"
+   58            .green
+   59:             = image_tag "marchi/Elie-Saab.jpg", cass:"bttrlazyloading"
+   60            .yellow
+   61:             = image_tag "marchi/Kenzo.jpg", cass:"bttrlazyloading"
+   62            .red
+   63:             = image_tag "marchi/Alyssa.jpg", cass:"bttrlazyloading"
+   64            .white
+   65:             = image_tag "marchi/Acqua-di-Parma.jpg", cass:"bttrlazyloading"
+   66            .saphir
+   67:             = image_tag "marchi/Armani.jpg", cass:"bttrlazyloading"
+   68            .blue
+   69:             = image_tag "marchi/Azzaro.jpg", cass:"bttrlazyloading"
+   70            .green
+   71:             = image_tag "marchi/Lancome.jpg", cass:"bttrlazyloading"
+   72            .yellow
+   73:             = image_tag "marchi/Narciso-Rodriguez.jpg", cass:"bttrlazyloading"
+   74          / End of #filter_content
+   75        / end of container in works section
+   ..
+   90            .slide
+   91              %a.no1
+   92:               = image_tag "servizi/Comp_61154935.jpg", cass:"bttrlazyloading"
+   93                %i
+   94              %h5 HAI SCELTO IL COLORE SBAGLIATO?
+   ..
+   96            .slide
+   97              %a.no2
+   98:               = image_tag "servizi/Comp_48063372.jpg", cass:"bttrlazyloading"
+   99                %i
+  100              %h5 VUOI IL PARERE DI UNO SPECIALISTA?
+  ...
+  102            .slide
+  103              %a.no3
+  104:               = image_tag "servizi/Comp_64919288.jpg", cass:"bttrlazyloading"
+  105                %i
+  106              %h5 VOGLIA DI NOVITÀ?<br /><br />
+  ...
+  108            .slide
+  109              %a.no4
+  110:               = image_tag "servizi/Comp_45498191.jpg", cass:"bttrlazyloading"
+  111                %i
+  112              %h5 VUOI PROVARE UN TRATTAMENTO PROFESSIONALE?
+  ...
+  161          %ul#lista
+  162            %li.shop
+  163:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  164              %h6 
+  165                SERRAVALLE SCRIVIA1 - OUTLET
+  ...
+  170                Telefono 0143/686370</span>
+  171            %li.shop
+  172:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  173              %h6 
+  174                SERRAVALLE SCRIVIA2 - OUTLET
+  ...
+  179                Telefono 0143/686370</span>
+  180            %li.shop
+  181:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  182              %h6 
+  183                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  188                Telefono 0143/686370</span>
+  189            %li.shop
+  190:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  191              %h6 
+  192                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  197                Telefono 0143/686370</span>
+  198            %li.shop
+  199:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  200              %h6 
+  201                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  206                Telefono 0143/686370</span>
+  207            %li.shop
+  208:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  209              %h6 
+  210                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  215                Telefono 0143/686370</span>
+  216            %li.shop
+  217:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  218              %h6 
+  219                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  224                Telefono 0143/686370</span>
+  225            %li.shop
+  226:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  227              %h6 
+  228                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  235  
+  236            %li.shop
+  237:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  238              %h6 
+  239                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  244                Telefono 0143/686370</span>
+  245            %li.shop
+  246:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  247              %h6 
+  248                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  253                Telefono 0143/686370</span>
+  254            %li.shop
+  255:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  256              %h6 
+  257                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  262                Telefono 0143/686370</span>
+  263            %li.shop
+  264:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  265              %h6 
+  266                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  271                Telefono 0143/686370</span>
+  272            %li.shop
+  273:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  274              %h6 
+  275                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  280                Telefono 0143/686370</span>
+  281            %li.shop
+  282:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  283              %h6 
+  284                SERRAVALLE SCRIVIA - OUTLET
+  ...
+  289                Telefono 0143/686370</span>
+  290            %li.shop
+  291:             = image_tag "shops/s1-14.jpg", cass:"bttrlazyloading"
+  292              %h6 
+  293                SERRAVALLE SCRIVIA - OUTLET
+
+/Users/piermariacosina/Documents/middleman/modus-website/source/partials/_app.haml:
+    3    .container
+    4      .left
+    5:       =image_tag "Modus_app-iphone.png", cass:"bttrlazyloading"
+    6      .right
+    7        .title
+    .
+   12          PRENDILE AL VOLO!<br /><br />
+   13          SCARICA GRATIS LA APP MODUS da<br />
+   14:       =image_tag "appstore.png", cass:"bttrlazyloading"
+   15:       =image_tag "googleplay.png", class: "google", cass:"bttrlazyloading"
+   16    .clearfix
+   17    #parallax-one.parallax{style: "background-image:url(images/flowers.jpg);"}
+
+/Users/piermariacosina/Documents/middleman/modus-website/source/partials/_clients.haml:
+    7        .slide
+    8          %a{href: "#"}
+    9:           = image_tag "news/sample-news.png", cass:"bttrlazyloading"
+   10            
+   11        .slide
+   12          %a{href: "#"}
+   13:           = image_tag "news/Modus_banner-07.png", cass:"bttrlazyloading"
+   14        .slide
+   15          %a{href: "#"}
+   16:           = image_tag "news/Modus_banner-08.png", cass:"bttrlazyloading"
+   17        .slide
+   18          %a{href: "#"}
+   19:           = image_tag "news/sample-news.png", cass:"bttrlazyloading"
+   20        .slide
+   21          %a{href: "#"}
+   22:           = image_tag "news/sample-news.png", cass:"bttrlazyloading"
+   23        .slide
+   24          %a{href: "#"}
+   25:           = image_tag "news/sample-news.png", cass:"bttrlazyloading"
+   26      / End of .slider1
+   27    / End of .container
+
+/Users/piermariacosina/Documents/middleman/modus-website/source/partials/_club.haml:
+   14          Cogli l’opportunità di aggiungere ancora più glamour alla tua vita.
+   15      .right
+   16:       =image_tag "card-13.png", cass:"bttrlazyloading"
+   17        %h3
+   18          Richiedi la modus card<br />
+
+/Users/piermariacosina/Documents/middleman/modus-website/source/partials/_footer.haml:
+    3    .container
+    4      .left
+    5:       = image_tag "Modus-logo-13.png", cass:"bttrlazyloading"
+    6  
+    7      / Begin of  #contact
+
+/Users/piermariacosina/Documents/middleman/modus-website/source/partials/_story.haml:
+   12        %p
+   13          Era il 1958, quando nasceva la profumeria “Madala” a Saluzzo, in provincia di Cuneo, dal nome del suo fondatore. Nel 1970, la famiglia Vallesi comincio’ a valorizzare il mondo della profumeria con uno stile del tutto personale. Nasce cosi’, nel 1995, il marchio “Modus”. In breve quel nome diventa un sinonimo di bellezza. E numerose storiche profumerie come Deca di Alba, Veglio e Bianco di Aosta, Zenith di Alessandria e Zucca di Acqui Terme, diventano “Modus”. Con altre acquisizioni il  marchio “Modus” diventa una delle piu’ importanti catene di profumerie.
+   14:       =image_tag "servizi/Comp_13303284.jpg", cass:"bttrlazyloading"
+   15      .right
+   16        %h3
+
+44 matches across 6 files

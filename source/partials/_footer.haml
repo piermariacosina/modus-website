@@ -1,0 +1,30 @@
+/ Footer Section
+%footer
+  .container
+    .left
+      = image_tag "Modus-logo-13.png", class:"bttrlazyloading"
+
+    / Begin of  #contact
+    .right
+      #contact
+        
+        %h2 Newsletter
+        %p
+          Vuoi essere sempre aggiornata sulle novità Modus?<br />
+          Iscriviti alla nostra newsletter per ricevere tutti gli update.
+        %form.contact-form{action: "form_data.php", method: "post", novalidate: ""}
+          
+          %input#name.form-name{name: "name", placeholder: "Name", type: "text"}/
+          %input#email.form-email{name: "email", placeholder: "Email", type: "email"}/
+
+          %button.btn Iscriviti
+        / End of .container
+    %p.info
+      Vallesi S.p.A Socio Unico - Via Circonvallazione Giolitti, 23 - 12030 Torre San Giorgio (CN) - Italy - Phone +39 0172. 96176 - Fax +39 0172 96269
+    %p.secondmenu
+      <a href="/privacypolicy.html">Privacy Policy</a>&nbsp;&nbsp;<a href="/termsandconditions.html">Terms and Conditions</a>
+    /[IF IE]
+      <script src="js/selectivizr-min.js"></script>
+      
+      <link href="http://externalcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+      <script src="js/respond.src.js"></script>

@@ -1,0 +1,1259 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g', 'bower' ]
+2 info using npm@1.1.66
+3 info using node@v0.8.15
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/node_modules/bower/package.json
+6 verbose read json /usr/local/lib/node_modules/coffee-script/package.json
+7 verbose read json /usr/local/lib/node_modules/grunt/package.json
+8 verbose read json /usr/local/lib/node_modules/jamjs/package.json
+9 verbose read json /usr/local/lib/node_modules/localtunnel/package.json
+10 verbose read json /usr/local/lib/node_modules/npm/package.json
+11 verbose read json /usr/local/lib/node_modules/volo/package.json
+12 verbose cache add [ 'bower', '*' ]
+13 silly cache add name="bower" spec="*" args=["bower","*"]
+14 verbose parsed url { pathname: '*', path: '*', href: '*' }
+15 verbose addNamed [ 'bower', '*' ]
+16 verbose addNamed [ null, '' ]
+17 verbose from cache /usr/local/lib/node_modules/grunt/package.json
+18 verbose from cache /usr/local/lib/node_modules/coffee-script/package.json
+19 verbose from cache /usr/local/lib/node_modules/jamjs/package.json
+20 verbose from cache /usr/local/lib/node_modules/npm/package.json
+21 verbose from cache /usr/local/lib/node_modules/localtunnel/package.json
+22 verbose from cache /usr/local/lib/node_modules/volo/package.json
+23 verbose read json /usr/local/lib/node_modules/npm/node_modules/abbrev/package.json
+24 verbose read json /usr/local/lib/node_modules/npm/node_modules/ansi/package.json
+25 verbose read json /usr/local/lib/node_modules/npm/node_modules/archy/package.json
+26 verbose read json /usr/local/lib/node_modules/npm/node_modules/block-stream/package.json
+27 verbose read json /usr/local/lib/node_modules/npm/node_modules/chownr/package.json
+28 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/package.json
+29 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/package.json
+30 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/package.json
+31 verbose read json /usr/local/lib/node_modules/npm/node_modules/graceful-fs/package.json
+32 verbose read json /usr/local/lib/node_modules/npm/node_modules/inherits/package.json
+33 verbose read json /usr/local/lib/node_modules/npm/node_modules/ini/package.json
+34 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/package.json
+35 verbose read json /usr/local/lib/node_modules/npm/node_modules/lockfile/package.json
+36 verbose read json /usr/local/lib/node_modules/npm/node_modules/lru-cache/package.json
+37 verbose read json /usr/local/lib/node_modules/npm/node_modules/minimatch/package.json
+38 verbose read json /usr/local/lib/node_modules/npm/node_modules/mkdirp/package.json
+39 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/package.json
+40 verbose read json /usr/local/lib/node_modules/npm/node_modules/nopt/package.json
+41 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/package.json
+42 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/package.json
+43 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmlog/package.json
+44 verbose read json /usr/local/lib/node_modules/npm/node_modules/once/package.json
+45 verbose read json /usr/local/lib/node_modules/npm/node_modules/opener/package.json
+46 verbose read json /usr/local/lib/node_modules/npm/node_modules/osenv/package.json
+47 verbose read json /usr/local/lib/node_modules/npm/node_modules/read/package.json
+48 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/package.json
+49 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/package.json
+50 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/package.json
+51 verbose read json /usr/local/lib/node_modules/npm/node_modules/retry/package.json
+52 verbose read json /usr/local/lib/node_modules/npm/node_modules/rimraf/package.json
+53 verbose read json /usr/local/lib/node_modules/npm/node_modules/semver/package.json
+54 verbose read json /usr/local/lib/node_modules/npm/node_modules/slide/package.json
+55 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/package.json
+56 verbose read json /usr/local/lib/node_modules/npm/node_modules/uid-number/package.json
+57 verbose read json /usr/local/lib/node_modules/npm/node_modules/which/package.json
+58 verbose read json /usr/local/lib/node_modules/volo/node_modules/.bin/package.json
+59 verbose read json /usr/local/lib/node_modules/volo/node_modules/q/package.json
+60 verbose read json /usr/local/lib/node_modules/volo/node_modules/semver/package.json
+61 verbose read json /usr/local/lib/node_modules/volo/node_modules/shell-quote/package.json
+62 verbose read json /usr/local/lib/node_modules/volo/node_modules/uglify-js/package.json
+63 verbose read json /usr/local/lib/node_modules/volo/node_modules/which/package.json
+64 verbose read json /usr/local/lib/node_modules/volo/node_modules/zip/package.json
+65 verbose read json /usr/local/lib/node_modules/localtunnel/node_modules/after/package.json
+66 verbose read json /usr/local/lib/node_modules/localtunnel/node_modules/optimist/package.json
+67 verbose read json /usr/local/lib/node_modules/localtunnel/node_modules/request/package.json
+68 verbose read json /usr/local/lib/node_modules/grunt/node_modules/.bin/package.json
+69 verbose read json /usr/local/lib/node_modules/grunt/node_modules/async/package.json
+70 verbose read json /usr/local/lib/node_modules/grunt/node_modules/colors/package.json
+71 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/package.json
+72 verbose read json /usr/local/lib/node_modules/grunt/node_modules/dateformat/package.json
+73 verbose read json /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/package.json
+74 verbose read json /usr/local/lib/node_modules/grunt/node_modules/gzip-js/package.json
+75 verbose read json /usr/local/lib/node_modules/grunt/node_modules/hooker/package.json
+76 verbose read json /usr/local/lib/node_modules/grunt/node_modules/jshint/package.json
+77 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/package.json
+78 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nopt/package.json
+79 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/package.json
+80 verbose read json /usr/local/lib/node_modules/grunt/node_modules/semver/package.json
+81 verbose read json /usr/local/lib/node_modules/grunt/node_modules/temporary/package.json
+82 verbose read json /usr/local/lib/node_modules/grunt/node_modules/uglify-js/package.json
+83 verbose read json /usr/local/lib/node_modules/grunt/node_modules/underscore/package.json
+84 verbose read json /usr/local/lib/node_modules/grunt/node_modules/underscore.string/package.json
+85 silly lockFile b788227f-bower bower@*
+86 verbose lock bower@* /Users/piermariacosina/.npm/b788227f-bower.lock
+87 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/.bin/package.json
+88 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/almond/package.json
+89 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/async/package.json
+90 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/fstream/package.json
+91 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/fstream-ignore/package.json
+92 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/inherits/package.json
+93 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/mime/package.json
+94 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/minimatch/package.json
+95 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/mkdirp/package.json
+96 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/ncp/package.json
+97 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/package.json
+98 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/request/package.json
+99 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/requirejs/package.json
+100 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/rimraf/package.json
+101 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/semver/package.json
+102 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/tar/package.json
+103 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/underscore/package.json
+104 silly addNameRange { name: 'bower', range: '', hasData: false }
+105 verbose from cache /usr/local/lib/node_modules/volo/node_modules/q/package.json
+106 verbose from cache /usr/local/lib/node_modules/volo/node_modules/zip/package.json
+107 verbose from cache /usr/local/lib/node_modules/volo/node_modules/uglify-js/package.json
+108 verbose from cache /usr/local/lib/node_modules/volo/node_modules/shell-quote/package.json
+109 verbose from cache /usr/local/lib/node_modules/volo/node_modules/semver/package.json
+110 verbose from cache /usr/local/lib/node_modules/volo/node_modules/which/package.json
+111 verbose from cache /usr/local/lib/node_modules/localtunnel/node_modules/request/package.json
+112 verbose from cache /usr/local/lib/node_modules/localtunnel/node_modules/optimist/package.json
+113 verbose from cache /usr/local/lib/node_modules/localtunnel/node_modules/after/package.json
+114 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/async/package.json
+115 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/colors/package.json
+116 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/package.json
+117 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/dateformat/package.json
+118 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/package.json
+119 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/hooker/package.json
+120 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/package.json
+121 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/package.json
+122 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nopt/package.json
+123 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/package.json
+124 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/semver/package.json
+125 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/uglify-js/package.json
+126 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/underscore/package.json
+127 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/underscore.string/package.json
+128 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/temporary/package.json
+129 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/gzip-js/package.json
+130 verbose read json /usr/local/lib/node_modules/volo/node_modules/zip/node_modules/q/package.json
+131 verbose read json /usr/local/lib/node_modules/volo/node_modules/zip/node_modules/q-io/package.json
+132 verbose read json /usr/local/lib/node_modules/volo/node_modules/zip/node_modules/q-io-buffer/package.json
+133 verbose read json /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/form-data/package.json
+134 verbose read json /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/mime/package.json
+135 verbose read json /usr/local/lib/node_modules/localtunnel/node_modules/optimist/node_modules/wordwrap/package.json
+136 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/bytes/package.json
+137 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/cookie/package.json
+138 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/crc/package.json
+139 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/debug/package.json
+140 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/formidable/package.json
+141 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/fresh/package.json
+142 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/pause/package.json
+143 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/qs/package.json
+144 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/package.json
+145 verbose read json /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/node_modules/minimatch/package.json
+146 verbose read json /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/package.json
+147 verbose read json /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/minimatch/package.json
+148 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nopt/node_modules/abbrev/package.json
+149 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/pkginfo/package.json
+150 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/package.json
+151 verbose read json /usr/local/lib/node_modules/grunt/node_modules/temporary/node_modules/package/package.json
+152 verbose read json /usr/local/lib/node_modules/grunt/node_modules/gzip-js/node_modules/.bin/package.json
+153 verbose read json /usr/local/lib/node_modules/grunt/node_modules/gzip-js/node_modules/crc32/package.json
+154 verbose read json /usr/local/lib/node_modules/grunt/node_modules/gzip-js/node_modules/deflate-js/package.json
+155 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/tar/package.json
+156 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/fstream-ignore/package.json
+157 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/fstream/package.json
+158 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/mkdirp/package.json
+159 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/inherits/package.json
+160 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/async/package.json
+161 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/mime/package.json
+162 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/underscore/package.json
+163 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/package.json
+164 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/rimraf/package.json
+165 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/semver/package.json
+166 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/ncp/package.json
+167 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/minimatch/package.json
+168 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/request/package.json
+169 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/almond/package.json
+170 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/requirejs/package.json
+171 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/.bin/package.json
+172 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/package.json
+173 verbose url raw bower
+174 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+175 verbose url resolved https://registry.npmjs.org/bower
+176 info trying registry request attempt 1 at 12:40:12
+177 verbose etag "A3DMRQAWVJEQJ8N9LPCVSUL9R"
+178 http GET https://registry.npmjs.org/bower
+179 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/rimraf/node_modules/graceful-fs/package.json
+180 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/fstream/node_modules/graceful-fs/package.json
+181 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/tar/node_modules/block-stream/package.json
+182 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/minimatch/node_modules/lru-cache/package.json
+183 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/minimatch/node_modules/sigmund/package.json
+184 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/colors/package.json
+185 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/pkginfo/package.json
+186 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/revalidator/package.json
+187 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/utile/package.json
+188 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/package.json
+189 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/fstream-ignore/node_modules/minimatch/package.json
+190 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/fstream-ignore/node_modules/fstream/package.json
+191 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/fstream-ignore/node_modules/inherits/package.json
+192 verbose from cache /usr/local/lib/node_modules/npm/node_modules/semver/package.json
+193 verbose from cache /usr/local/lib/node_modules/npm/node_modules/ini/package.json
+194 verbose from cache /usr/local/lib/node_modules/npm/node_modules/slide/package.json
+195 verbose from cache /usr/local/lib/node_modules/npm/node_modules/abbrev/package.json
+196 verbose from cache /usr/local/lib/node_modules/npm/node_modules/graceful-fs/package.json
+197 verbose from cache /usr/local/lib/node_modules/npm/node_modules/minimatch/package.json
+198 verbose from cache /usr/local/lib/node_modules/npm/node_modules/nopt/package.json
+199 verbose from cache /usr/local/lib/node_modules/npm/node_modules/rimraf/package.json
+200 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/package.json
+201 verbose from cache /usr/local/lib/node_modules/npm/node_modules/which/package.json
+202 verbose from cache /usr/local/lib/node_modules/npm/node_modules/tar/package.json
+203 verbose from cache /usr/local/lib/node_modules/npm/node_modules/fstream/package.json
+204 verbose from cache /usr/local/lib/node_modules/npm/node_modules/block-stream/package.json
+205 verbose from cache /usr/local/lib/node_modules/npm/node_modules/inherits/package.json
+206 verbose from cache /usr/local/lib/node_modules/npm/node_modules/mkdirp/package.json
+207 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read/package.json
+208 verbose from cache /usr/local/lib/node_modules/npm/node_modules/lru-cache/package.json
+209 verbose from cache /usr/local/lib/node_modules/npm/node_modules/node-gyp/package.json
+210 verbose from cache /usr/local/lib/node_modules/npm/node_modules/fstream-npm/package.json
+211 verbose from cache /usr/local/lib/node_modules/npm/node_modules/uid-number/package.json
+212 verbose from cache /usr/local/lib/node_modules/npm/node_modules/archy/package.json
+213 verbose from cache /usr/local/lib/node_modules/npm/node_modules/chownr/package.json
+214 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmlog/package.json
+215 verbose from cache /usr/local/lib/node_modules/npm/node_modules/ansi/package.json
+216 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/package.json
+217 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read-package-json/package.json
+218 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read-installed/package.json
+219 verbose from cache /usr/local/lib/node_modules/npm/node_modules/glob/package.json
+220 verbose from cache /usr/local/lib/node_modules/npm/node_modules/init-package-json/package.json
+221 verbose from cache /usr/local/lib/node_modules/npm/node_modules/osenv/package.json
+222 verbose from cache /usr/local/lib/node_modules/npm/node_modules/lockfile/package.json
+223 verbose from cache /usr/local/lib/node_modules/npm/node_modules/retry/package.json
+224 verbose from cache /usr/local/lib/node_modules/npm/node_modules/once/package.json
+225 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmconf/package.json
+226 verbose from cache /usr/local/lib/node_modules/npm/node_modules/opener/package.json
+227 verbose read json /usr/local/lib/node_modules/npm/node_modules/minimatch/node_modules/lru-cache/package.json
+228 verbose read json /usr/local/lib/node_modules/npm/node_modules/nopt/node_modules/abbrev/package.json
+229 verbose read json /usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/graceful-fs/package.json
+230 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/inherits/package.json
+231 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/block-stream/package.json
+232 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/fstream/package.json
+233 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/rimraf/package.json
+234 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/mkdirp/package.json
+235 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/graceful-fs/package.json
+236 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/inherits/package.json
+237 verbose read json /usr/local/lib/node_modules/npm/node_modules/block-stream/node_modules/inherits/package.json
+238 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/glob/package.json
+239 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/graceful-fs/package.json
+240 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/fstream/package.json
+241 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/package.json
+242 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/mkdirp/package.json
+243 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/nopt/package.json
+244 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/package.json
+245 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/osenv/package.json
+246 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/request/package.json
+247 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/rimraf/package.json
+248 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/semver/package.json
+249 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/tar/package.json
+250 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/which/package.json
+251 verbose read json /usr/local/lib/node_modules/npm/node_modules/read/node_modules/mute-stream/package.json
+252 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/package.json
+253 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/ansi/package.json
+254 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob/package.json
+255 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/lru-cache/package.json
+256 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/semver/package.json
+257 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/slide/package.json
+258 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/npmlog/package.json
+259 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/graceful-fs/package.json
+260 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/semver/package.json
+261 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/slide/package.json
+262 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/read-package-json/package.json
+263 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/graceful-fs/package.json
+264 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/npmlog/package.json
+265 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/package.json
+266 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/graceful-fs/package.json
+267 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/inherits/package.json
+268 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/couch-login/package.json
+269 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard/package.json
+270 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/package.json
+271 verbose from cache /usr/local/lib/node_modules/volo/node_modules/zip/node_modules/q/package.json
+272 verbose from cache /usr/local/lib/node_modules/volo/node_modules/zip/node_modules/q-io/package.json
+273 verbose from cache /usr/local/lib/node_modules/volo/node_modules/zip/node_modules/q-io-buffer/package.json
+274 verbose from cache /usr/local/lib/node_modules/localtunnel/node_modules/optimist/node_modules/wordwrap/package.json
+275 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/qs/package.json
+276 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/formidable/package.json
+277 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/crc/package.json
+278 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/cookie/package.json
+279 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/bytes/package.json
+280 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/package.json
+281 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/fresh/package.json
+282 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/pause/package.json
+283 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/debug/package.json
+284 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/node_modules/minimatch/package.json
+285 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nopt/node_modules/abbrev/package.json
+286 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/package.json
+287 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/minimatch/package.json
+288 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/gzip-js/node_modules/crc32/package.json
+289 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/gzip-js/node_modules/deflate-js/package.json
+290 verbose read json /usr/local/lib/node_modules/volo/node_modules/zip/node_modules/q/node_modules/event-queue/package.json
+291 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/async/package.json
+292 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/colors/package.json
+293 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/pkginfo/package.json
+294 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/package.json
+295 verbose read json /usr/local/lib/node_modules/volo/node_modules/zip/node_modules/q-io/node_modules/q/package.json
+296 verbose read json /usr/local/lib/node_modules/volo/node_modules/zip/node_modules/q-io-buffer/node_modules/q/package.json
+297 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/node_modules/mime/package.json
+298 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/node_modules/range-parser/package.json
+299 verbose read json /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/node_modules/minimatch/node_modules/lru-cache/package.json
+300 verbose read json /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/node_modules/minimatch/node_modules/sigmund/package.json
+301 verbose read json /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/package.json
+302 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/temporary/node_modules/package/package.json
+303 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/package.json
+304 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/rimraf/node_modules/graceful-fs/package.json
+305 verbose read json /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache/package.json
+306 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/fstream/node_modules/rimraf/package.json
+307 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/fstream/node_modules/mkdirp/package.json
+308 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/fstream/node_modules/graceful-fs/package.json
+309 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/fstream/node_modules/inherits/package.json
+310 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/minimatch/node_modules/lru-cache/package.json
+311 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/minimatch/node_modules/sigmund/package.json
+312 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/tar/node_modules/inherits/package.json
+313 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/tar/node_modules/block-stream/package.json
+314 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/tar/node_modules/fstream/package.json
+315 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/eyes/package.json
+316 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/package.json
+317 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/stack-trace/package.json
+318 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/.bin/package.json
+319 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/package.json
+320 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/package.json
+321 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/difflet/package.json
+322 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/inherits/package.json
+323 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/package.json
+324 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/nopt/package.json
+325 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/package.json
+326 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/slide/package.json
+327 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/yamlish/package.json
+328 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/utile/package.json
+329 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/colors/package.json
+330 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/pkginfo/package.json
+331 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/package.json
+332 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/revalidator/package.json
+333 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/tar/node_modules/block-stream/node_modules/inherits/package.json
+334 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/utile/node_modules/deep-equal/package.json
+335 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/utile/node_modules/i/package.json
+336 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/utile/node_modules/rimraf/package.json
+337 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/node_modules/cycle/package.json
+338 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/node_modules/eyes/package.json
+339 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/node_modules/stack-trace/package.json
+340 verbose from cache /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/package.json
+341 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/inherits/package.json
+342 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read/node_modules/mute-stream/package.json
+343 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/request/package.json
+344 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/graceful-fs/package.json
+345 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/semver/package.json
+346 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/slide/package.json
+347 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/chownr/package.json
+348 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/mkdirp/package.json
+349 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/rimraf/package.json
+350 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/retry/package.json
+351 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/couch-login/package.json
+352 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/package.json
+353 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/package.json
+354 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/inherits/package.json
+355 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/once/package.json
+356 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/mkdirp/package.json
+357 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/osenv/package.json
+358 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/nopt/package.json
+359 verbose from cache /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard/package.json
+360 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/read/package.json
+361 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/read-package-json/package.json
+362 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/semver/package.json
+363 verbose from cache /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/form-data/package.json
+364 verbose from cache /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/mime/package.json
+365 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/package.json
+366 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/fstream/package.json
+367 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/inherits/package.json
+368 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/couch-login/node_modules/request/package.json
+369 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/package.json
+370 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard/node_modules/read/package.json
+371 verbose read json /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/package.json
+372 verbose read json /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+373 verbose from cache /usr/local/lib/node_modules/volo/node_modules/zip/node_modules/q/node_modules/event-queue/package.json
+374 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/node_modules/minimatch/node_modules/lru-cache/package.json
+375 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/node_modules/minimatch/node_modules/sigmund/package.json
+376 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/node_modules/debug/package.json
+377 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/node_modules/mime/package.json
+378 verbose read json /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/node_modules/fresh/package.json
+379 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/node_modules/range-parser/package.json
+380 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/package.json
+381 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache/package.json
+382 verbose read json /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/graceful-fs/package.json
+383 verbose read json /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/inherits/package.json
+384 verbose read json /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/package.json
+385 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/async/package.json
+386 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/colors/package.json
+387 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/eyes/package.json
+388 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/package.json
+389 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/pkginfo/package.json
+390 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/stack-trace/package.json
+391 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/node_modules/request/package.json
+392 verbose read json /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/node_modules/timespan/package.json
+393 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/utile/node_modules/async/package.json
+394 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/utile/node_modules/deep-equal/package.json
+395 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/utile/node_modules/i/package.json
+396 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/utile/node_modules/mkdirp/package.json
+397 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/utile/node_modules/ncp/package.json
+398 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/utile/node_modules/rimraf/package.json
+399 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/package.json
+400 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/node_modules/ini/package.json
+401 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/node_modules/async/package.json
+402 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/node_modules/colors/package.json
+403 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/node_modules/cycle/package.json
+404 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/node_modules/eyes/package.json
+405 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/node_modules/pkginfo/package.json
+406 verbose read json /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/node_modules/request/package.json
+407 verbose from cache /usr/local/lib/node_modules/jamjs/node_modules/prompt/node_modules/winston/node_modules/stack-trace/package.json
+408 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/package.json
+409 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/graceful-fs/package.json
+410 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/inherits/package.json
+411 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/inherits/package.json
+412 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/yamlish/package.json
+413 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/slide/package.json
+414 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/package.json
+415 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/nopt/package.json
+416 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/mkdirp/package.json
+417 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/difflet/package.json
+418 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/deep-equal/package.json
+419 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/buffer-equal/package.json
+420 verbose read json /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+421 verbose read json /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+422 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/package.json
+423 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/package.json
+424 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/package.json
+425 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/nopt/node_modules/abbrev/package.json
+426 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/node_modules/request/package.json
+427 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/node_modules/timespan/package.json
+428 verbose from cache /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+429 verbose read json /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/mime/package.json
+430 verbose from cache /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/package.json
+431 verbose read json /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+432 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/nopt/node_modules/abbrev/package.json
+433 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+434 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+435 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/package.json
+436 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/traverse/package.json
+437 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/charm/package.json
+438 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/difflet/node_modules/deep-equal/package.json
+439 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/package.json
+440 verbose from cache /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+441 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/package.json
+442 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/.bin/package.json
+443 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/package.json
+444 verbose read json /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/package.json
+445 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/traverse/package.json
+446 verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/burrito/node_modules/uglify-js/package.json
+447 http 200 https://registry.npmjs.org/bower
+448 silly registry.get cb [ 200,
+448 silly registry.get   { date: 'Fri, 18 Apr 2014 10:40:14 GMT',
+448 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+448 silly registry.get     etag: '"C34P3ZUG17598RADL9YADJAPL"',
+448 silly registry.get     'content-type': 'application/json',
+448 silly registry.get     via: '1.1 varnish',
+448 silly registry.get     'cache-control': 'max-age=1',
+448 silly registry.get     'content-length': '92701',
+448 silly registry.get     'accept-ranges': 'bytes',
+448 silly registry.get     age: '184',
+448 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-fra1231-FRA',
+448 silly registry.get     'x-cache': 'HIT, HIT',
+448 silly registry.get     'x-cache-hits': '1, 1',
+448 silly registry.get     'x-timer': 'S1397601423.000056267,VS0,VS49,VE136,VE216191250',
+448 silly registry.get     vary: 'Accept',
+448 silly registry.get     'keep-alive': 'timeout=10, max=50',
+448 silly registry.get     connection: 'Keep-Alive' } ]
+449 silly addNameRange number 2 { name: 'bower', range: '', hasData: true }
+450 silly addNameRange versions [ 'bower',
+450 silly addNameRange   [ '0.1.0',
+450 silly addNameRange     '0.1.2',
+450 silly addNameRange     '0.1.3',
+450 silly addNameRange     '0.2.0',
+450 silly addNameRange     '0.3.0',
+450 silly addNameRange     '0.3.1',
+450 silly addNameRange     '0.3.2',
+450 silly addNameRange     '0.4.0',
+450 silly addNameRange     '0.5.0',
+450 silly addNameRange     '0.5.1',
+450 silly addNameRange     '0.6.0',
+450 silly addNameRange     '0.6.1',
+450 silly addNameRange     '0.6.2',
+450 silly addNameRange     '0.6.3',
+450 silly addNameRange     '0.6.4',
+450 silly addNameRange     '0.6.5',
+450 silly addNameRange     '0.6.6',
+450 silly addNameRange     '0.6.7',
+450 silly addNameRange     '0.6.8',
+450 silly addNameRange     '0.7.0',
+450 silly addNameRange     '0.7.1',
+450 silly addNameRange     '0.8.0',
+450 silly addNameRange     '0.8.1',
+450 silly addNameRange     '0.8.2',
+450 silly addNameRange     '0.8.3',
+450 silly addNameRange     '0.8.4',
+450 silly addNameRange     '0.8.5',
+450 silly addNameRange     '0.8.6',
+450 silly addNameRange     '0.9.0',
+450 silly addNameRange     '0.9.1',
+450 silly addNameRange     '0.9.2',
+450 silly addNameRange     '0.10.0',
+450 silly addNameRange     '1.0.0',
+450 silly addNameRange     '1.0.1',
+450 silly addNameRange     '1.0.2',
+450 silly addNameRange     '1.0.3',
+450 silly addNameRange     '1.1.0',
+450 silly addNameRange     '1.1.1',
+450 silly addNameRange     '1.1.2',
+450 silly addNameRange     '1.2.0',
+450 silly addNameRange     '1.2.1',
+450 silly addNameRange     '1.2.2',
+450 silly addNameRange     '1.2.3',
+450 silly addNameRange     '1.2.4',
+450 silly addNameRange     '1.2.5',
+450 silly addNameRange     '1.2.6',
+450 silly addNameRange     '1.2.7',
+450 silly addNameRange     '1.2.8',
+450 silly addNameRange     '1.3.0',
+450 silly addNameRange     '1.3.1',
+450 silly addNameRange     '1.3.2' ] ]
+451 verbose addNamed [ 'bower', '1.3.2' ]
+452 verbose addNamed [ '1.3.2', '1.3.2' ]
+453 silly lockFile 8fa4f256-bower-1-3-2 bower@1.3.2
+454 verbose lock bower@1.3.2 /Users/piermariacosina/.npm/8fa4f256-bower-1-3-2.lock
+455 silly lockFile 6f276548--npmjs-org-bower-bower-1-3-2-tgz https://registry.npmjs.org/bower/-/bower-1.3.2.tgz
+456 verbose lock https://registry.npmjs.org/bower/-/bower-1.3.2.tgz /Users/piermariacosina/.npm/6f276548--npmjs-org-bower-bower-1-3-2-tgz.lock
+457 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.3.2.tgz',
+457 verbose addRemoteTarball   'ae1eeea5c3ba9300e10e55b193e9d2fd5407fb7b' ]
+458 info retry fetch attempt 1 at 12:40:15
+459 verbose fetch to= /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817615153-0.08804456540383399/tmp.tgz
+460 http GET https://registry.npmjs.org/bower/-/bower-1.3.2.tgz
+461 http 200 https://registry.npmjs.org/bower/-/bower-1.3.2.tgz
+462 silly shasum updated bytes 40960
+463 silly shasum updated bytes 40960
+464 silly shasum updated bytes 30156
+465 info shasum ae1eeea5c3ba9300e10e55b193e9d2fd5407fb7b
+465 info shasum /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817615153-0.08804456540383399/tmp.tgz
+466 verbose tar unpack /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817615153-0.08804456540383399/tmp.tgz
+467 silly lockFile 68aaefba-5153-0-08804456540383399-package /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817615153-0.08804456540383399/package
+468 verbose lock /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817615153-0.08804456540383399/package /Users/piermariacosina/.npm/68aaefba-5153-0-08804456540383399-package.lock
+469 silly gunzTarPerm modes [ '755', '644' ]
+470 silly gunzTarPerm extractEntry package.json
+471 silly gunzTarPerm extractEntry .npmignore
+472 silly gunzTarPerm extractEntry README.md
+473 silly gunzTarPerm extractEntry LICENSE
+474 silly gunzTarPerm extractEntry Gruntfile.js
+475 silly gunzTarPerm extractEntry HOOKS.md
+476 silly gunzTarPerm extractEntry .editorconfig
+477 silly gunzTarPerm extractEntry .jshintrc
+478 silly gunzTarPerm extractEntry .travis.yml
+479 silly gunzTarPerm extractEntry CHANGELOG.md
+480 silly gunzTarPerm extractEntry bin/bower
+481 silly gunzTarPerm extractEntry lib/config.js
+482 silly gunzTarPerm extractEntry lib/index.js
+483 silly gunzTarPerm extractEntry lib/commands/version.js
+484 silly gunzTarPerm extractEntry lib/commands/info.js
+485 silly gunzTarPerm extractEntry lib/commands/init.js
+486 silly gunzTarPerm extractEntry lib/commands/install.js
+487 silly gunzTarPerm extractEntry lib/commands/index.js
+488 silly gunzTarPerm extractEntry lib/commands/list.js
+489 silly gunzTarPerm extractEntry lib/commands/lookup.js
+490 silly gunzTarPerm extractEntry lib/commands/prune.js
+491 silly gunzTarPerm extractEntry lib/commands/register.js
+492 silly gunzTarPerm extractEntry lib/commands/search.js
+493 silly gunzTarPerm extractEntry lib/commands/home.js
+494 silly gunzTarPerm extractEntry lib/commands/uninstall.js
+495 silly gunzTarPerm extractEntry lib/commands/help.js
+496 silly gunzTarPerm extractEntry lib/commands/update.js
+497 silly gunzTarPerm extractEntry lib/commands/completion.js
+498 silly gunzTarPerm extractEntry lib/commands/link.js
+499 silly gunzTarPerm extractEntry lib/commands/cache/clean.js
+500 silly gunzTarPerm extractEntry lib/commands/cache/index.js
+501 silly gunzTarPerm extractEntry lib/commands/cache/list.js
+502 silly gunzTarPerm extractEntry lib/core/Manager.js
+503 silly gunzTarPerm extractEntry lib/core/PackageRepository.js
+504 silly gunzTarPerm extractEntry lib/core/Project.js
+505 silly gunzTarPerm extractEntry lib/core/ResolveCache.js
+506 silly gunzTarPerm extractEntry lib/core/resolverFactory.js
+507 silly gunzTarPerm extractEntry lib/core/scripts.js
+508 silly gunzTarPerm extractEntry lib/core/resolvers/FsResolver.js
+509 silly gunzTarPerm extractEntry lib/core/resolvers/GitFsResolver.js
+510 silly gunzTarPerm extractEntry lib/core/resolvers/GitHubResolver.js
+511 silly gunzTarPerm extractEntry lib/core/resolvers/GitRemoteResolver.js
+512 silly gunzTarPerm extractEntry lib/core/resolvers/GitResolver.js
+513 silly gunzTarPerm extractEntry lib/core/resolvers/Resolver.js
+514 silly gunzTarPerm extractEntry lib/core/resolvers/SvnResolver.js
+515 silly gunzTarPerm extractEntry lib/core/resolvers/UrlResolver.js
+516 silly gunzTarPerm extractEntry lib/core/resolvers/index.js
+517 silly gunzTarPerm extractEntry lib/renderers/JsonRenderer.js
+518 silly gunzTarPerm extractEntry lib/renderers/StandardRenderer.js
+519 silly gunzTarPerm extractEntry lib/renderers/index.js
+520 silly gunzTarPerm extractEntry lib/util/analytics.js
+521 silly gunzTarPerm extractEntry lib/util/createError.js
+522 silly gunzTarPerm extractEntry lib/util/createLink.js
+523 silly gunzTarPerm extractEntry lib/util/download.js
+524 silly gunzTarPerm extractEntry lib/util/copy.js
+525 silly gunzTarPerm extractEntry lib/util/md5.js
+526 silly gunzTarPerm extractEntry lib/util/readJson.js
+527 silly gunzTarPerm extractEntry lib/util/removeIgnores.js
+528 silly gunzTarPerm extractEntry lib/util/rootCheck.js
+529 silly gunzTarPerm extractEntry lib/util/semver.js
+530 silly gunzTarPerm extractEntry lib/util/cmd.js
+531 silly gunzTarPerm extractEntry lib/util/template.js
+532 silly gunzTarPerm extractEntry lib/util/cli.js
+533 silly gunzTarPerm extractEntry lib/util/validLink.js
+534 silly gunzTarPerm extractEntry lib/util/extract.js
+535 silly gunzTarPerm extractEntry CONTRIBUTING.md
+536 silly gunzTarPerm extractEntry templates/helpers/colors.js
+537 silly gunzTarPerm extractEntry templates/helpers/condense.js
+538 silly gunzTarPerm extractEntry templates/helpers/indent.js
+539 silly gunzTarPerm extractEntry templates/helpers/index.js
+540 silly gunzTarPerm extractEntry templates/helpers/rpad.js
+541 silly gunzTarPerm extractEntry templates/helpers/sum.js
+542 silly gunzTarPerm extractEntry templates/json/help-lookup.json
+543 silly gunzTarPerm extractEntry templates/json/help-cache/clean.json
+544 silly gunzTarPerm extractEntry templates/json/help-cache/list.json
+545 silly gunzTarPerm extractEntry templates/json/help-home.json
+546 silly gunzTarPerm extractEntry templates/json/help-info.json
+547 silly gunzTarPerm extractEntry templates/json/help-init.json
+548 silly gunzTarPerm extractEntry templates/json/help-install.json
+549 silly gunzTarPerm extractEntry templates/json/help-link.json
+550 silly gunzTarPerm extractEntry templates/json/help-list.json
+551 silly gunzTarPerm extractEntry templates/json/help-cache.json
+552 silly gunzTarPerm extractEntry templates/json/help-prune.json
+553 silly gunzTarPerm extractEntry templates/json/help-register.json
+554 silly gunzTarPerm extractEntry templates/json/help-search.json
+555 silly gunzTarPerm extractEntry templates/json/help-uninstall.json
+556 silly gunzTarPerm extractEntry templates/json/help-update.json
+557 silly gunzTarPerm extractEntry templates/json/help-version.json
+558 silly gunzTarPerm extractEntry templates/json/help.json
+559 silly gunzTarPerm extractEntry templates/std/conflict-resolved.std
+560 silly gunzTarPerm extractEntry templates/std/conflict.std
+561 silly gunzTarPerm extractEntry templates/std/help-cache.std
+562 silly gunzTarPerm extractEntry templates/std/help-generic.std
+563 silly gunzTarPerm extractEntry templates/std/help.std
+564 silly gunzTarPerm extractEntry templates/std/info.std
+565 silly gunzTarPerm extractEntry templates/std/lookup.std
+566 silly gunzTarPerm extractEntry templates/std/register.std
+567 silly gunzTarPerm extractEntry templates/std/search-results.std
+568 silly gunzTarPerm extractEntry templates/std/update-notice.std
+569 silly gunzTarPerm extractEntry test/packages-svn.js
+570 silly gunzTarPerm extractEntry test/packages.js
+571 silly gunzTarPerm extractEntry test/test.js
+572 silly gunzTarPerm extractEntry test/assets/package-tar.tar.gz
+573 silly gunzTarPerm extractEntry test/assets/package-zip-folder-single-file.zip
+574 silly gunzTarPerm extractEntry test/assets/package-zip-folder.zip
+575 silly gunzTarPerm extractEntry test/assets/package-zip-single-bower-json.zip
+576 silly gunzTarPerm extractEntry test/assets/package-zip-single-component-json.zip
+577 silly gunzTarPerm extractEntry test/assets/package-zip-single-file.zip
+578 silly gunzTarPerm extractEntry test/assets/package-zip.zip
+579 silly gunzTarPerm extractEntry test/assets/resolve-cache/list-json-1.json
+580 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test-exception.js
+581 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test.js
+582 silly gunzTarPerm extractEntry test/core/packageRepository.js
+583 silly gunzTarPerm extractEntry test/core/resolveCache.js
+584 silly gunzTarPerm extractEntry test/core/resolverFactory.js
+585 silly gunzTarPerm extractEntry test/core/scripts.js
+586 silly gunzTarPerm extractEntry test/core/resolvers/fsResolver.js
+587 silly gunzTarPerm extractEntry test/core/resolvers/gitFsResolver.js
+588 silly gunzTarPerm extractEntry test/core/resolvers/gitHubResolver.js
+589 silly gunzTarPerm extractEntry test/core/resolvers/gitRemoteResolver.js
+590 silly gunzTarPerm extractEntry test/core/resolvers/gitResolver.js
+591 silly gunzTarPerm extractEntry test/core/resolvers/resolver.js
+592 silly gunzTarPerm extractEntry test/core/resolvers/svnResolver.js
+593 silly gunzTarPerm extractEntry test/core/resolvers/urlResolver.js
+594 silly gunzTarPerm extractEntry test/packages-svn.json
+595 silly gunzTarPerm extractEntry test/packages.json
+596 verbose read json /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817615153-0.08804456540383399/package/package.json
+597 silly lockFile 68aaefba-5153-0-08804456540383399-package /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817615153-0.08804456540383399/package
+598 verbose from cache /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817615153-0.08804456540383399/package/package.json
+599 verbose tar pack [ '/Users/piermariacosina/.npm/bower/1.3.2/package.tgz',
+599 verbose tar pack   '/var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817615153-0.08804456540383399/package' ]
+600 verbose tarball /Users/piermariacosina/.npm/bower/1.3.2/package.tgz
+601 verbose folder /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817615153-0.08804456540383399/package
+602 silly lockFile f1fa68e9-sina-npm-bower-1-3-2-package-tgz /Users/piermariacosina/.npm/bower/1.3.2/package.tgz
+603 verbose lock /Users/piermariacosina/.npm/bower/1.3.2/package.tgz /Users/piermariacosina/.npm/f1fa68e9-sina-npm-bower-1-3-2-package-tgz.lock
+604 silly lockFile f1fa68e9-sina-npm-bower-1-3-2-package-tgz /Users/piermariacosina/.npm/bower/1.3.2/package.tgz
+605 silly lockFile e1023065-iacosina-npm-bower-1-3-2-package /Users/piermariacosina/.npm/bower/1.3.2/package
+606 verbose lock /Users/piermariacosina/.npm/bower/1.3.2/package /Users/piermariacosina/.npm/e1023065-iacosina-npm-bower-1-3-2-package.lock
+607 silly lockFile e1023065-iacosina-npm-bower-1-3-2-package /Users/piermariacosina/.npm/bower/1.3.2/package
+608 verbose tar unpack /Users/piermariacosina/.npm/bower/1.3.2/package.tgz
+609 silly lockFile e1023065-iacosina-npm-bower-1-3-2-package /Users/piermariacosina/.npm/bower/1.3.2/package
+610 verbose lock /Users/piermariacosina/.npm/bower/1.3.2/package /Users/piermariacosina/.npm/e1023065-iacosina-npm-bower-1-3-2-package.lock
+611 silly gunzTarPerm modes [ '755', '644' ]
+612 silly gunzTarPerm extractEntry package.json
+613 silly gunzTarPerm extractEntry .npmignore
+614 silly gunzTarPerm extractEntry README.md
+615 silly gunzTarPerm extractEntry LICENSE
+616 silly gunzTarPerm extractEntry Gruntfile.js
+617 silly gunzTarPerm extractEntry CHANGELOG.md
+618 silly gunzTarPerm extractEntry CONTRIBUTING.md
+619 silly gunzTarPerm extractEntry .jshintrc
+620 silly gunzTarPerm extractEntry HOOKS.md
+621 silly gunzTarPerm extractEntry lib/config.js
+622 silly gunzTarPerm extractEntry lib/index.js
+623 silly gunzTarPerm extractEntry lib/commands/version.js
+624 silly gunzTarPerm extractEntry lib/commands/info.js
+625 silly gunzTarPerm extractEntry lib/commands/init.js
+626 silly gunzTarPerm extractEntry lib/commands/install.js
+627 silly gunzTarPerm extractEntry lib/commands/index.js
+628 silly gunzTarPerm extractEntry lib/commands/list.js
+629 silly gunzTarPerm extractEntry lib/commands/lookup.js
+630 silly gunzTarPerm extractEntry lib/commands/prune.js
+631 silly gunzTarPerm extractEntry lib/commands/register.js
+632 silly gunzTarPerm extractEntry lib/commands/search.js
+633 silly gunzTarPerm extractEntry lib/commands/home.js
+634 silly gunzTarPerm extractEntry lib/commands/uninstall.js
+635 silly gunzTarPerm extractEntry lib/commands/help.js
+636 silly gunzTarPerm extractEntry lib/commands/update.js
+637 silly gunzTarPerm extractEntry lib/commands/completion.js
+638 silly gunzTarPerm extractEntry lib/commands/link.js
+639 silly gunzTarPerm extractEntry lib/commands/cache/clean.js
+640 silly gunzTarPerm extractEntry lib/commands/cache/index.js
+641 silly gunzTarPerm extractEntry lib/commands/cache/list.js
+642 silly gunzTarPerm extractEntry lib/core/Manager.js
+643 silly gunzTarPerm extractEntry lib/core/PackageRepository.js
+644 silly gunzTarPerm extractEntry lib/core/Project.js
+645 silly gunzTarPerm extractEntry lib/core/ResolveCache.js
+646 silly gunzTarPerm extractEntry lib/core/resolverFactory.js
+647 silly gunzTarPerm extractEntry lib/core/scripts.js
+648 silly gunzTarPerm extractEntry lib/core/resolvers/FsResolver.js
+649 silly gunzTarPerm extractEntry lib/core/resolvers/GitFsResolver.js
+650 silly gunzTarPerm extractEntry lib/core/resolvers/GitHubResolver.js
+651 silly gunzTarPerm extractEntry lib/core/resolvers/GitRemoteResolver.js
+652 silly gunzTarPerm extractEntry lib/core/resolvers/GitResolver.js
+653 silly gunzTarPerm extractEntry lib/core/resolvers/index.js
+654 silly gunzTarPerm extractEntry lib/core/resolvers/Resolver.js
+655 silly gunzTarPerm extractEntry lib/core/resolvers/SvnResolver.js
+656 silly gunzTarPerm extractEntry lib/core/resolvers/UrlResolver.js
+657 silly gunzTarPerm extractEntry lib/renderers/index.js
+658 silly gunzTarPerm extractEntry lib/renderers/JsonRenderer.js
+659 silly gunzTarPerm extractEntry lib/renderers/StandardRenderer.js
+660 silly gunzTarPerm extractEntry lib/util/analytics.js
+661 silly gunzTarPerm extractEntry lib/util/createError.js
+662 silly gunzTarPerm extractEntry lib/util/createLink.js
+663 silly gunzTarPerm extractEntry lib/util/download.js
+664 silly gunzTarPerm extractEntry lib/util/copy.js
+665 silly gunzTarPerm extractEntry lib/util/md5.js
+666 silly gunzTarPerm extractEntry lib/util/readJson.js
+667 silly gunzTarPerm extractEntry lib/util/removeIgnores.js
+668 silly gunzTarPerm extractEntry lib/util/rootCheck.js
+669 silly gunzTarPerm extractEntry lib/util/semver.js
+670 silly gunzTarPerm extractEntry lib/util/cmd.js
+671 silly gunzTarPerm extractEntry lib/util/template.js
+672 silly gunzTarPerm extractEntry lib/util/cli.js
+673 silly gunzTarPerm extractEntry lib/util/validLink.js
+674 silly gunzTarPerm extractEntry lib/util/extract.js
+675 silly gunzTarPerm extractEntry .editorconfig
+676 silly gunzTarPerm extractEntry .travis.yml
+677 silly gunzTarPerm extractEntry bin/bower
+678 silly gunzTarPerm extractEntry templates/helpers/colors.js
+679 silly gunzTarPerm extractEntry templates/helpers/condense.js
+680 silly gunzTarPerm extractEntry templates/helpers/indent.js
+681 silly gunzTarPerm extractEntry templates/helpers/index.js
+682 silly gunzTarPerm extractEntry templates/helpers/rpad.js
+683 silly gunzTarPerm extractEntry templates/helpers/sum.js
+684 silly gunzTarPerm extractEntry templates/json/help-lookup.json
+685 silly gunzTarPerm extractEntry templates/json/help-cache/clean.json
+686 silly gunzTarPerm extractEntry templates/json/help-cache/list.json
+687 silly gunzTarPerm extractEntry templates/json/help-home.json
+688 silly gunzTarPerm extractEntry templates/json/help-info.json
+689 silly gunzTarPerm extractEntry templates/json/help-init.json
+690 silly gunzTarPerm extractEntry templates/json/help-install.json
+691 silly gunzTarPerm extractEntry templates/json/help-link.json
+692 silly gunzTarPerm extractEntry templates/json/help-list.json
+693 silly gunzTarPerm extractEntry templates/json/help-cache.json
+694 silly gunzTarPerm extractEntry templates/json/help-prune.json
+695 silly gunzTarPerm extractEntry templates/json/help-register.json
+696 silly gunzTarPerm extractEntry templates/json/help-search.json
+697 silly gunzTarPerm extractEntry templates/json/help-uninstall.json
+698 silly gunzTarPerm extractEntry templates/json/help-update.json
+699 silly gunzTarPerm extractEntry templates/json/help-version.json
+700 silly gunzTarPerm extractEntry templates/json/help.json
+701 silly gunzTarPerm extractEntry templates/std/conflict-resolved.std
+702 silly gunzTarPerm extractEntry templates/std/conflict.std
+703 silly gunzTarPerm extractEntry templates/std/help-cache.std
+704 silly gunzTarPerm extractEntry templates/std/help-generic.std
+705 silly gunzTarPerm extractEntry templates/std/help.std
+706 silly gunzTarPerm extractEntry templates/std/info.std
+707 silly gunzTarPerm extractEntry templates/std/lookup.std
+708 silly gunzTarPerm extractEntry templates/std/register.std
+709 silly gunzTarPerm extractEntry templates/std/search-results.std
+710 silly gunzTarPerm extractEntry templates/std/update-notice.std
+711 silly gunzTarPerm extractEntry test/packages-svn.js
+712 silly gunzTarPerm extractEntry test/packages.js
+713 silly gunzTarPerm extractEntry test/test.js
+714 silly gunzTarPerm extractEntry test/assets/package-tar.tar.gz
+715 silly gunzTarPerm extractEntry test/assets/package-zip-folder-single-file.zip
+716 silly gunzTarPerm extractEntry test/assets/package-zip-folder.zip
+717 silly gunzTarPerm extractEntry test/assets/package-zip-single-bower-json.zip
+718 silly gunzTarPerm extractEntry test/assets/package-zip-single-component-json.zip
+719 silly gunzTarPerm extractEntry test/assets/package-zip-single-file.zip
+720 silly gunzTarPerm extractEntry test/assets/package-zip.zip
+721 silly gunzTarPerm extractEntry test/assets/resolve-cache/list-json-1.json
+722 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test-exception.js
+723 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test.js
+724 silly gunzTarPerm extractEntry test/core/packageRepository.js
+725 silly gunzTarPerm extractEntry test/core/resolveCache.js
+726 silly gunzTarPerm extractEntry test/core/resolverFactory.js
+727 silly gunzTarPerm extractEntry test/core/scripts.js
+728 silly gunzTarPerm extractEntry test/core/resolvers/fsResolver.js
+729 silly gunzTarPerm extractEntry test/core/resolvers/gitFsResolver.js
+730 silly gunzTarPerm extractEntry test/core/resolvers/gitHubResolver.js
+731 silly gunzTarPerm extractEntry test/core/resolvers/gitRemoteResolver.js
+732 silly gunzTarPerm extractEntry test/core/resolvers/gitResolver.js
+733 silly gunzTarPerm extractEntry test/core/resolvers/resolver.js
+734 silly gunzTarPerm extractEntry test/core/resolvers/svnResolver.js
+735 silly gunzTarPerm extractEntry test/core/resolvers/urlResolver.js
+736 silly gunzTarPerm extractEntry test/packages-svn.json
+737 silly gunzTarPerm extractEntry test/packages.json
+738 verbose read json /Users/piermariacosina/.npm/bower/1.3.2/package/package.json
+739 silly lockFile e1023065-iacosina-npm-bower-1-3-2-package /Users/piermariacosina/.npm/bower/1.3.2/package
+740 silly shasum updated bytes 40960
+741 silly shasum updated bytes 40960
+742 silly shasum updated bytes 29950
+743 info shasum 35925cf66c929bb0069a64e2bfa690dd80243819
+743 info shasum /Users/piermariacosina/.npm/bower/1.3.2/package.tgz
+744 verbose from cache /Users/piermariacosina/.npm/bower/1.3.2/package/package.json
+745 verbose chmod /Users/piermariacosina/.npm/bower/1.3.2/package.tgz 644
+746 verbose chown /Users/piermariacosina/.npm/bower/1.3.2/package.tgz [ 501, 20 ]
+747 silly lockFile 6f276548--npmjs-org-bower-bower-1-3-2-tgz https://registry.npmjs.org/bower/-/bower-1.3.2.tgz
+748 silly lockFile 8fa4f256-bower-1-3-2 bower@1.3.2
+749 silly lockFile b788227f-bower bower@*
+750 info outdated updating [ [ '/usr/local/lib', 'bower', '1.2.8', '1.3.2' ] ]
+751 verbose install where,what [ '/usr/local/lib', [ 'bower@1.3.2' ] ]
+752 verbose read json /usr/local/lib/package.json
+753 verbose read json /usr/local/lib/package.json
+754 verbose cache add [ 'bower@1.3.2', null ]
+755 silly cache add name=undefined spec="bower@1.3.2" args=["bower@1.3.2",null]
+756 verbose parsed url { pathname: 'bower@1.3.2',
+756 verbose parsed url   path: 'bower@1.3.2',
+756 verbose parsed url   href: 'bower@1.3.2' }
+757 silly cache add name="bower" spec="1.3.2" args=["bower","1.3.2"]
+758 verbose parsed url { pathname: '1.3.2', path: '1.3.2', href: '1.3.2' }
+759 verbose addNamed [ 'bower', '1.3.2' ]
+760 verbose addNamed [ '1.3.2', '1.3.2' ]
+761 silly lockFile 8fa4f256-bower-1-3-2 bower@1.3.2
+762 verbose lock bower@1.3.2 /Users/piermariacosina/.npm/8fa4f256-bower-1-3-2.lock
+763 verbose url raw bower/1.3.2
+764 verbose url resolving [ 'https://registry.npmjs.org/', './bower/1.3.2' ]
+765 verbose url resolved https://registry.npmjs.org/bower/1.3.2
+766 info trying registry request attempt 1 at 12:40:17
+767 http GET https://registry.npmjs.org/bower/1.3.2
+768 http 200 https://registry.npmjs.org/bower/1.3.2
+769 silly registry.get cb [ 200,
+769 silly registry.get   { date: 'Fri, 18 Apr 2014 10:40:17 GMT',
+769 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+769 silly registry.get     etag: '"C34P3ZUG17598RADL9YADJAPL"',
+769 silly registry.get     'content-type': 'application/json',
+769 silly registry.get     via: '1.1 varnish',
+769 silly registry.get     'cache-control': 'max-age=1',
+769 silly registry.get     'content-length': '2072',
+769 silly registry.get     'accept-ranges': 'bytes',
+769 silly registry.get     age: '2587',
+769 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-fra1224-FRA',
+769 silly registry.get     'x-cache': 'HIT, MISS',
+769 silly registry.get     'x-cache-hits': '1, 0',
+769 silly registry.get     'x-timer': 'S1397799990.277804613,VS0,VS47,VE55,VE17627455',
+769 silly registry.get     vary: 'Accept',
+769 silly registry.get     'keep-alive': 'timeout=10, max=50',
+769 silly registry.get     connection: 'Keep-Alive' } ]
+770 silly lockFile 6f276548--npmjs-org-bower-bower-1-3-2-tgz https://registry.npmjs.org/bower/-/bower-1.3.2.tgz
+771 verbose lock https://registry.npmjs.org/bower/-/bower-1.3.2.tgz /Users/piermariacosina/.npm/6f276548--npmjs-org-bower-bower-1-3-2-tgz.lock
+772 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.3.2.tgz',
+772 verbose addRemoteTarball   'ae1eeea5c3ba9300e10e55b193e9d2fd5407fb7b' ]
+773 info retry fetch attempt 1 at 12:40:17
+774 verbose fetch to= /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817617776-0.0442361319437623/tmp.tgz
+775 http GET https://registry.npmjs.org/bower/-/bower-1.3.2.tgz
+776 http 200 https://registry.npmjs.org/bower/-/bower-1.3.2.tgz
+777 silly shasum updated bytes 40960
+778 silly shasum updated bytes 40960
+779 silly shasum updated bytes 30156
+780 info shasum ae1eeea5c3ba9300e10e55b193e9d2fd5407fb7b
+780 info shasum /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817617776-0.0442361319437623/tmp.tgz
+781 verbose tar unpack /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817617776-0.0442361319437623/tmp.tgz
+782 silly lockFile 8bc8e718-17776-0-0442361319437623-package /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817617776-0.0442361319437623/package
+783 verbose lock /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817617776-0.0442361319437623/package /Users/piermariacosina/.npm/8bc8e718-17776-0-0442361319437623-package.lock
+784 silly gunzTarPerm modes [ '755', '644' ]
+785 silly gunzTarPerm extractEntry package.json
+786 silly gunzTarPerm extractEntry .npmignore
+787 silly gunzTarPerm extractEntry README.md
+788 silly gunzTarPerm extractEntry LICENSE
+789 silly gunzTarPerm extractEntry Gruntfile.js
+790 silly gunzTarPerm extractEntry HOOKS.md
+791 silly gunzTarPerm extractEntry .editorconfig
+792 silly gunzTarPerm extractEntry .jshintrc
+793 silly gunzTarPerm extractEntry .travis.yml
+794 silly gunzTarPerm extractEntry CHANGELOG.md
+795 silly gunzTarPerm extractEntry bin/bower
+796 silly gunzTarPerm extractEntry lib/config.js
+797 silly gunzTarPerm extractEntry lib/index.js
+798 silly gunzTarPerm extractEntry lib/commands/version.js
+799 silly gunzTarPerm extractEntry lib/commands/info.js
+800 silly gunzTarPerm extractEntry lib/commands/init.js
+801 silly gunzTarPerm extractEntry lib/commands/install.js
+802 silly gunzTarPerm extractEntry lib/commands/index.js
+803 silly gunzTarPerm extractEntry lib/commands/list.js
+804 silly gunzTarPerm extractEntry lib/commands/lookup.js
+805 silly gunzTarPerm extractEntry lib/commands/prune.js
+806 silly gunzTarPerm extractEntry lib/commands/register.js
+807 silly gunzTarPerm extractEntry lib/commands/search.js
+808 silly gunzTarPerm extractEntry lib/commands/home.js
+809 silly gunzTarPerm extractEntry lib/commands/uninstall.js
+810 silly gunzTarPerm extractEntry lib/commands/help.js
+811 silly gunzTarPerm extractEntry lib/commands/update.js
+812 silly gunzTarPerm extractEntry lib/commands/completion.js
+813 silly gunzTarPerm extractEntry lib/commands/link.js
+814 silly gunzTarPerm extractEntry lib/commands/cache/clean.js
+815 silly gunzTarPerm extractEntry lib/commands/cache/index.js
+816 silly gunzTarPerm extractEntry lib/commands/cache/list.js
+817 silly gunzTarPerm extractEntry lib/core/Manager.js
+818 silly gunzTarPerm extractEntry lib/core/PackageRepository.js
+819 silly gunzTarPerm extractEntry lib/core/Project.js
+820 silly gunzTarPerm extractEntry lib/core/ResolveCache.js
+821 silly gunzTarPerm extractEntry lib/core/resolverFactory.js
+822 silly gunzTarPerm extractEntry lib/core/scripts.js
+823 silly gunzTarPerm extractEntry lib/core/resolvers/FsResolver.js
+824 silly gunzTarPerm extractEntry lib/core/resolvers/GitFsResolver.js
+825 silly gunzTarPerm extractEntry lib/core/resolvers/GitHubResolver.js
+826 silly gunzTarPerm extractEntry lib/core/resolvers/GitRemoteResolver.js
+827 silly gunzTarPerm extractEntry lib/core/resolvers/GitResolver.js
+828 silly gunzTarPerm extractEntry lib/core/resolvers/Resolver.js
+829 silly gunzTarPerm extractEntry lib/core/resolvers/SvnResolver.js
+830 silly gunzTarPerm extractEntry lib/core/resolvers/UrlResolver.js
+831 silly gunzTarPerm extractEntry lib/core/resolvers/index.js
+832 silly gunzTarPerm extractEntry lib/renderers/JsonRenderer.js
+833 silly gunzTarPerm extractEntry lib/renderers/StandardRenderer.js
+834 silly gunzTarPerm extractEntry lib/renderers/index.js
+835 silly gunzTarPerm extractEntry lib/util/analytics.js
+836 silly gunzTarPerm extractEntry lib/util/createError.js
+837 silly gunzTarPerm extractEntry lib/util/createLink.js
+838 silly gunzTarPerm extractEntry lib/util/download.js
+839 silly gunzTarPerm extractEntry lib/util/copy.js
+840 silly gunzTarPerm extractEntry lib/util/md5.js
+841 silly gunzTarPerm extractEntry lib/util/readJson.js
+842 silly gunzTarPerm extractEntry lib/util/removeIgnores.js
+843 silly gunzTarPerm extractEntry lib/util/rootCheck.js
+844 silly gunzTarPerm extractEntry lib/util/semver.js
+845 silly gunzTarPerm extractEntry lib/util/cmd.js
+846 silly gunzTarPerm extractEntry lib/util/template.js
+847 silly gunzTarPerm extractEntry lib/util/cli.js
+848 silly gunzTarPerm extractEntry lib/util/validLink.js
+849 silly gunzTarPerm extractEntry lib/util/extract.js
+850 silly gunzTarPerm extractEntry CONTRIBUTING.md
+851 silly gunzTarPerm extractEntry templates/helpers/colors.js
+852 silly gunzTarPerm extractEntry templates/helpers/condense.js
+853 silly gunzTarPerm extractEntry templates/helpers/indent.js
+854 silly gunzTarPerm extractEntry templates/helpers/index.js
+855 silly gunzTarPerm extractEntry templates/helpers/rpad.js
+856 silly gunzTarPerm extractEntry templates/helpers/sum.js
+857 silly gunzTarPerm extractEntry templates/json/help-lookup.json
+858 silly gunzTarPerm extractEntry templates/json/help-cache/clean.json
+859 silly gunzTarPerm extractEntry templates/json/help-cache/list.json
+860 silly gunzTarPerm extractEntry templates/json/help-home.json
+861 silly gunzTarPerm extractEntry templates/json/help-info.json
+862 silly gunzTarPerm extractEntry templates/json/help-init.json
+863 silly gunzTarPerm extractEntry templates/json/help-install.json
+864 silly gunzTarPerm extractEntry templates/json/help-link.json
+865 silly gunzTarPerm extractEntry templates/json/help-list.json
+866 silly gunzTarPerm extractEntry templates/json/help-cache.json
+867 silly gunzTarPerm extractEntry templates/json/help-prune.json
+868 silly gunzTarPerm extractEntry templates/json/help-register.json
+869 silly gunzTarPerm extractEntry templates/json/help-search.json
+870 silly gunzTarPerm extractEntry templates/json/help-uninstall.json
+871 silly gunzTarPerm extractEntry templates/json/help-update.json
+872 silly gunzTarPerm extractEntry templates/json/help-version.json
+873 silly gunzTarPerm extractEntry templates/json/help.json
+874 silly gunzTarPerm extractEntry templates/std/conflict-resolved.std
+875 silly gunzTarPerm extractEntry templates/std/conflict.std
+876 silly gunzTarPerm extractEntry templates/std/help-cache.std
+877 silly gunzTarPerm extractEntry templates/std/help-generic.std
+878 silly gunzTarPerm extractEntry templates/std/help.std
+879 silly gunzTarPerm extractEntry templates/std/info.std
+880 silly gunzTarPerm extractEntry templates/std/lookup.std
+881 silly gunzTarPerm extractEntry templates/std/register.std
+882 silly gunzTarPerm extractEntry templates/std/search-results.std
+883 silly gunzTarPerm extractEntry templates/std/update-notice.std
+884 silly gunzTarPerm extractEntry test/packages-svn.js
+885 silly gunzTarPerm extractEntry test/packages.js
+886 silly gunzTarPerm extractEntry test/test.js
+887 silly gunzTarPerm extractEntry test/assets/package-tar.tar.gz
+888 silly gunzTarPerm extractEntry test/assets/package-zip-folder-single-file.zip
+889 silly gunzTarPerm extractEntry test/assets/package-zip-folder.zip
+890 silly gunzTarPerm extractEntry test/assets/package-zip-single-bower-json.zip
+891 silly gunzTarPerm extractEntry test/assets/package-zip-single-component-json.zip
+892 silly gunzTarPerm extractEntry test/assets/package-zip-single-file.zip
+893 silly gunzTarPerm extractEntry test/assets/package-zip.zip
+894 silly gunzTarPerm extractEntry test/assets/resolve-cache/list-json-1.json
+895 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test-exception.js
+896 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test.js
+897 silly gunzTarPerm extractEntry test/core/packageRepository.js
+898 silly gunzTarPerm extractEntry test/core/resolveCache.js
+899 silly gunzTarPerm extractEntry test/core/resolverFactory.js
+900 silly gunzTarPerm extractEntry test/core/scripts.js
+901 silly gunzTarPerm extractEntry test/core/resolvers/fsResolver.js
+902 silly gunzTarPerm extractEntry test/core/resolvers/gitFsResolver.js
+903 silly gunzTarPerm extractEntry test/core/resolvers/gitHubResolver.js
+904 silly gunzTarPerm extractEntry test/core/resolvers/gitRemoteResolver.js
+905 silly gunzTarPerm extractEntry test/core/resolvers/gitResolver.js
+906 silly gunzTarPerm extractEntry test/core/resolvers/resolver.js
+907 silly gunzTarPerm extractEntry test/core/resolvers/svnResolver.js
+908 silly gunzTarPerm extractEntry test/core/resolvers/urlResolver.js
+909 silly gunzTarPerm extractEntry test/packages-svn.json
+910 silly gunzTarPerm extractEntry test/packages.json
+911 verbose read json /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817617776-0.0442361319437623/package/package.json
+912 silly lockFile 8bc8e718-17776-0-0442361319437623-package /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817617776-0.0442361319437623/package
+913 verbose from cache /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817617776-0.0442361319437623/package/package.json
+914 verbose tar pack [ '/Users/piermariacosina/.npm/bower/1.3.2/package.tgz',
+914 verbose tar pack   '/var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817617776-0.0442361319437623/package' ]
+915 verbose tarball /Users/piermariacosina/.npm/bower/1.3.2/package.tgz
+916 verbose folder /var/folders/q9/ltq6kyg142ldtxv2mdyqqx8r0000gn/T/npm-5911/1397817617776-0.0442361319437623/package
+917 silly lockFile f1fa68e9-sina-npm-bower-1-3-2-package-tgz /Users/piermariacosina/.npm/bower/1.3.2/package.tgz
+918 verbose lock /Users/piermariacosina/.npm/bower/1.3.2/package.tgz /Users/piermariacosina/.npm/f1fa68e9-sina-npm-bower-1-3-2-package-tgz.lock
+919 silly lockFile f1fa68e9-sina-npm-bower-1-3-2-package-tgz /Users/piermariacosina/.npm/bower/1.3.2/package.tgz
+920 silly lockFile e1023065-iacosina-npm-bower-1-3-2-package /Users/piermariacosina/.npm/bower/1.3.2/package
+921 verbose lock /Users/piermariacosina/.npm/bower/1.3.2/package /Users/piermariacosina/.npm/e1023065-iacosina-npm-bower-1-3-2-package.lock
+922 silly lockFile e1023065-iacosina-npm-bower-1-3-2-package /Users/piermariacosina/.npm/bower/1.3.2/package
+923 verbose tar unpack /Users/piermariacosina/.npm/bower/1.3.2/package.tgz
+924 silly lockFile e1023065-iacosina-npm-bower-1-3-2-package /Users/piermariacosina/.npm/bower/1.3.2/package
+925 verbose lock /Users/piermariacosina/.npm/bower/1.3.2/package /Users/piermariacosina/.npm/e1023065-iacosina-npm-bower-1-3-2-package.lock
+926 silly gunzTarPerm modes [ '755', '644' ]
+927 silly gunzTarPerm extractEntry package.json
+928 silly gunzTarPerm extractEntry .npmignore
+929 silly gunzTarPerm extractEntry README.md
+930 silly gunzTarPerm extractEntry LICENSE
+931 silly gunzTarPerm extractEntry Gruntfile.js
+932 silly gunzTarPerm extractEntry CHANGELOG.md
+933 silly gunzTarPerm extractEntry CONTRIBUTING.md
+934 silly gunzTarPerm extractEntry .jshintrc
+935 silly gunzTarPerm extractEntry HOOKS.md
+936 silly gunzTarPerm extractEntry lib/config.js
+937 silly gunzTarPerm extractEntry lib/index.js
+938 silly gunzTarPerm extractEntry lib/commands/version.js
+939 silly gunzTarPerm extractEntry lib/commands/info.js
+940 silly gunzTarPerm extractEntry lib/commands/init.js
+941 silly gunzTarPerm extractEntry lib/commands/install.js
+942 silly gunzTarPerm extractEntry lib/commands/index.js
+943 silly gunzTarPerm extractEntry lib/commands/list.js
+944 silly gunzTarPerm extractEntry lib/commands/lookup.js
+945 silly gunzTarPerm extractEntry lib/commands/prune.js
+946 silly gunzTarPerm extractEntry lib/commands/register.js
+947 silly gunzTarPerm extractEntry lib/commands/search.js
+948 silly gunzTarPerm extractEntry lib/commands/home.js
+949 silly gunzTarPerm extractEntry lib/commands/uninstall.js
+950 silly gunzTarPerm extractEntry lib/commands/help.js
+951 silly gunzTarPerm extractEntry lib/commands/update.js
+952 silly gunzTarPerm extractEntry lib/commands/completion.js
+953 silly gunzTarPerm extractEntry lib/commands/link.js
+954 silly gunzTarPerm extractEntry lib/commands/cache/clean.js
+955 silly gunzTarPerm extractEntry lib/commands/cache/index.js
+956 silly gunzTarPerm extractEntry lib/commands/cache/list.js
+957 silly gunzTarPerm extractEntry lib/core/Manager.js
+958 silly gunzTarPerm extractEntry lib/core/PackageRepository.js
+959 silly gunzTarPerm extractEntry lib/core/Project.js
+960 silly gunzTarPerm extractEntry lib/core/ResolveCache.js
+961 silly gunzTarPerm extractEntry lib/core/resolverFactory.js
+962 silly gunzTarPerm extractEntry lib/core/scripts.js
+963 silly gunzTarPerm extractEntry lib/core/resolvers/FsResolver.js
+964 silly gunzTarPerm extractEntry lib/core/resolvers/GitFsResolver.js
+965 silly gunzTarPerm extractEntry lib/core/resolvers/GitHubResolver.js
+966 silly gunzTarPerm extractEntry lib/core/resolvers/GitRemoteResolver.js
+967 silly gunzTarPerm extractEntry lib/core/resolvers/GitResolver.js
+968 silly gunzTarPerm extractEntry lib/core/resolvers/index.js
+969 silly gunzTarPerm extractEntry lib/core/resolvers/Resolver.js
+970 silly gunzTarPerm extractEntry lib/core/resolvers/SvnResolver.js
+971 silly gunzTarPerm extractEntry lib/core/resolvers/UrlResolver.js
+972 silly gunzTarPerm extractEntry lib/renderers/index.js
+973 silly gunzTarPerm extractEntry lib/renderers/JsonRenderer.js
+974 silly gunzTarPerm extractEntry lib/renderers/StandardRenderer.js
+975 silly gunzTarPerm extractEntry lib/util/analytics.js
+976 silly gunzTarPerm extractEntry lib/util/createError.js
+977 silly gunzTarPerm extractEntry lib/util/createLink.js
+978 silly gunzTarPerm extractEntry lib/util/download.js
+979 silly gunzTarPerm extractEntry lib/util/copy.js
+980 silly gunzTarPerm extractEntry lib/util/md5.js
+981 silly gunzTarPerm extractEntry lib/util/readJson.js
+982 silly gunzTarPerm extractEntry lib/util/removeIgnores.js
+983 silly gunzTarPerm extractEntry lib/util/rootCheck.js
+984 silly gunzTarPerm extractEntry lib/util/semver.js
+985 silly gunzTarPerm extractEntry lib/util/cmd.js
+986 silly gunzTarPerm extractEntry lib/util/template.js
+987 silly gunzTarPerm extractEntry lib/util/cli.js
+988 silly gunzTarPerm extractEntry lib/util/validLink.js
+989 silly gunzTarPerm extractEntry lib/util/extract.js
+990 silly gunzTarPerm extractEntry .editorconfig
+991 silly gunzTarPerm extractEntry .travis.yml
+992 silly gunzTarPerm extractEntry bin/bower
+993 silly gunzTarPerm extractEntry templates/helpers/colors.js
+994 silly gunzTarPerm extractEntry templates/helpers/condense.js
+995 silly gunzTarPerm extractEntry templates/helpers/indent.js
+996 silly gunzTarPerm extractEntry templates/helpers/index.js
+997 silly gunzTarPerm extractEntry templates/helpers/rpad.js
+998 silly gunzTarPerm extractEntry templates/helpers/sum.js
+999 silly gunzTarPerm extractEntry templates/json/help-lookup.json
+1000 silly gunzTarPerm extractEntry templates/json/help-cache/clean.json
+1001 silly gunzTarPerm extractEntry templates/json/help-cache/list.json
+1002 silly gunzTarPerm extractEntry templates/json/help-home.json
+1003 silly gunzTarPerm extractEntry templates/json/help-info.json
+1004 silly gunzTarPerm extractEntry templates/json/help-init.json
+1005 silly gunzTarPerm extractEntry templates/json/help-install.json
+1006 silly gunzTarPerm extractEntry templates/json/help-link.json
+1007 silly gunzTarPerm extractEntry templates/json/help-list.json
+1008 silly gunzTarPerm extractEntry templates/json/help-cache.json
+1009 silly gunzTarPerm extractEntry templates/json/help-prune.json
+1010 silly gunzTarPerm extractEntry templates/json/help-register.json
+1011 silly gunzTarPerm extractEntry templates/json/help-search.json
+1012 silly gunzTarPerm extractEntry templates/json/help-uninstall.json
+1013 silly gunzTarPerm extractEntry templates/json/help-update.json
+1014 silly gunzTarPerm extractEntry templates/json/help-version.json
+1015 silly gunzTarPerm extractEntry templates/json/help.json
+1016 silly gunzTarPerm extractEntry templates/std/conflict-resolved.std
+1017 silly gunzTarPerm extractEntry templates/std/conflict.std
+1018 silly gunzTarPerm extractEntry templates/std/help-cache.std
+1019 silly gunzTarPerm extractEntry templates/std/help-generic.std
+1020 silly gunzTarPerm extractEntry templates/std/help.std
+1021 silly gunzTarPerm extractEntry templates/std/info.std
+1022 silly gunzTarPerm extractEntry templates/std/lookup.std
+1023 silly gunzTarPerm extractEntry templates/std/register.std
+1024 silly gunzTarPerm extractEntry templates/std/search-results.std
+1025 silly gunzTarPerm extractEntry templates/std/update-notice.std
+1026 silly gunzTarPerm extractEntry test/packages-svn.js
+1027 silly gunzTarPerm extractEntry test/packages.js
+1028 silly gunzTarPerm extractEntry test/test.js
+1029 silly gunzTarPerm extractEntry test/assets/package-tar.tar.gz
+1030 silly gunzTarPerm extractEntry test/assets/package-zip-folder-single-file.zip
+1031 silly gunzTarPerm extractEntry test/assets/package-zip-folder.zip
+1032 silly gunzTarPerm extractEntry test/assets/package-zip-single-bower-json.zip
+1033 silly gunzTarPerm extractEntry test/assets/package-zip-single-component-json.zip
+1034 silly gunzTarPerm extractEntry test/assets/package-zip-single-file.zip
+1035 silly gunzTarPerm extractEntry test/assets/package-zip.zip
+1036 silly gunzTarPerm extractEntry test/assets/resolve-cache/list-json-1.json
+1037 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test-exception.js
+1038 silly gunzTarPerm extractEntry test/assets/test-temp-dir/test.js
+1039 silly gunzTarPerm extractEntry test/core/packageRepository.js
+1040 silly gunzTarPerm extractEntry test/core/resolveCache.js
+1041 silly gunzTarPerm extractEntry test/core/resolverFactory.js
+1042 silly gunzTarPerm extractEntry test/core/scripts.js
+1043 silly gunzTarPerm extractEntry test/core/resolvers/fsResolver.js
+1044 silly gunzTarPerm extractEntry test/core/resolvers/gitFsResolver.js
+1045 silly gunzTarPerm extractEntry test/core/resolvers/gitHubResolver.js
+1046 silly gunzTarPerm extractEntry test/core/resolvers/gitRemoteResolver.js
+1047 silly gunzTarPerm extractEntry test/core/resolvers/gitResolver.js
+1048 silly gunzTarPerm extractEntry test/core/resolvers/resolver.js
+1049 silly gunzTarPerm extractEntry test/core/resolvers/svnResolver.js
+1050 silly gunzTarPerm extractEntry test/core/resolvers/urlResolver.js
+1051 silly gunzTarPerm extractEntry test/packages-svn.json
+1052 silly gunzTarPerm extractEntry test/packages.json
+1053 verbose from cache /Users/piermariacosina/.npm/bower/1.3.2/package/package.json
+1054 silly lockFile e1023065-iacosina-npm-bower-1-3-2-package /Users/piermariacosina/.npm/bower/1.3.2/package
+1055 silly shasum updated bytes 40960
+1056 silly shasum updated bytes 40960
+1057 silly shasum updated bytes 29950
+1058 info shasum 35925cf66c929bb0069a64e2bfa690dd80243819
+1058 info shasum /Users/piermariacosina/.npm/bower/1.3.2/package.tgz
+1059 verbose from cache /Users/piermariacosina/.npm/bower/1.3.2/package/package.json
+1060 verbose chmod /Users/piermariacosina/.npm/bower/1.3.2/package.tgz 644
+1061 verbose chown /Users/piermariacosina/.npm/bower/1.3.2/package.tgz [ 501, 20 ]
+1062 silly lockFile 6f276548--npmjs-org-bower-bower-1-3-2-tgz https://registry.npmjs.org/bower/-/bower-1.3.2.tgz
+1063 silly lockFile 8fa4f256-bower-1-3-2 bower@1.3.2
+1064 silly resolved [ { name: 'bower',
+1064 silly resolved     version: '1.3.2',
+1064 silly resolved     description: 'The browser package manager.',
+1064 silly resolved     author: { name: 'Twitter' },
+1064 silly resolved     licenses: [ [Object] ],
+1064 silly resolved     repository: { type: 'git', url: 'git://github.com/bower/bower.git' },
+1064 silly resolved     main: 'lib',
+1064 silly resolved     homepage: 'http://bower.io',
+1064 silly resolved     engines: { node: '>=0.10.0' },
+1064 silly resolved     dependencies:
+1064 silly resolved      { abbrev: '~1.0.4',
+1064 silly resolved        archy: '0.0.2',
+1064 silly resolved        'bower-config': '~0.5.0',
+1064 silly resolved        'bower-endpoint-parser': '~0.2.0',
+1064 silly resolved        'bower-json': '~0.4.0',
+1064 silly resolved        'bower-logger': '~0.2.2',
+1064 silly resolved        'bower-registry-client': '~0.1.4',
+1064 silly resolved        cardinal: '~0.4.0',
+1064 silly resolved        chalk: '~0.4.0',
+1064 silly resolved        chmodr: '~0.1.0',
+1064 silly resolved        'decompress-zip': '~0.0.3',
+1064 silly resolved        fstream: '~0.1.22',
+1064 silly resolved        'fstream-ignore': '~0.0.6',
+1064 silly resolved        glob: '~3.2.1',
+1064 silly resolved        'graceful-fs': '~2.0.0',
+1064 silly resolved        handlebars: '~1.3.0',
+1064 silly resolved        inquirer: '~0.4.0',
+1064 silly resolved        junk: '~0.2.0',
+1064 silly resolved        mkdirp: '~0.3.5',
+1064 silly resolved        mout: '~0.9.0',
+1064 silly resolved        nopt: '~2.1.1',
+1064 silly resolved        'lru-cache': '~2.5.0',
+1064 silly resolved        open: '~0.0.3',
+1064 silly resolved        osenv: '~0.0.3',
+1064 silly resolved        promptly: '~0.2.0',
+1064 silly resolved        q: '~1.0.0',
+1064 silly resolved        request: '~2.33.0',
+1064 silly resolved        'request-progress': '~0.3.0',
+1064 silly resolved        retry: '~0.6.0',
+1064 silly resolved        rimraf: '~2.2.0',
+1064 silly resolved        semver: '~2.2.1',
+1064 silly resolved        'stringify-object': '~0.2.0',
+1064 silly resolved        tar: '~0.1.17',
+1064 silly resolved        tmp: '~0.0.20',
+1064 silly resolved        'update-notifier': '~0.1.3',
+1064 silly resolved        which: '~1.0.5',
+1064 silly resolved        'p-throttler': '~0.0.1',
+1064 silly resolved        insight: '~0.3.0',
+1064 silly resolved        'is-root': '~0.1.0',
+1064 silly resolved        'shell-quote': '~1.4.1',
+1064 silly resolved        lockfile: '~0.4.2' },
+1064 silly resolved     devDependencies:
+1064 silly resolved      { 'expect.js': '~0.2.0',
+1064 silly resolved        grunt: '~0.4.1',
+1064 silly resolved        'grunt-simple-mocha': '~0.4.0',
+1064 silly resolved        'grunt-contrib-watch': '~0.5.0',
+1064 silly resolved        'grunt-contrib-jshint': '~0.8.0',
+1064 silly resolved        'grunt-exec': '~0.4.2',
+1064 silly resolved        mocha: '*',
+1064 silly resolved        nock: '~0.27.2',
+1064 silly resolved        istanbul: '~0.2.4',
+1064 silly resolved        proxyquire: '~0.5.0',
+1064 silly resolved        'load-grunt-tasks': '~0.3.0' },
+1064 silly resolved     scripts: { test: 'grunt test' },
+1064 silly resolved     bin: { bower: 'bin/bower' },
+1064 silly resolved     preferGlobal: true,
+1064 silly resolved     readme: '# Bower\n\n[![Build Status](https://secure.travis-ci.org/bower/bower.svg?branch=master)](http://travis-ci.org/bower/bower)\n\n<img align="right" height="300" src="http://bower.io/img/bower-logo.png">\n\nBower is a package manager for the web. It offers a generic, unopinionated\nsolution to the problem of **front-end package management**, while exposing the\npackage dependency model via an API that can be consumed by a more opinionated\nbuild stack. There are no system wide dependencies, no dependencies are shared\nbetween different apps, and the dependency tree is flat.\n\nBower runs over Git, and is package-agnostic. A packaged component can be made\nup of any type of asset, and use any type of transport (e.g., AMD, CommonJS,\netc.).\n\n[View all packages available through Bower\'s registry](http://bower.io/search/).\n\n\n## Installing Bower\n\nBower depends on [Node](http://nodejs.org/) and [npm](http://npmjs.org/). It\'s\ninstalled globally using npm:\n\n```\nnpm install -g bower\n```\n\nAlso make sure that [git](http://git-scm.com/) is installed as some bower\npackages require it to be fetched and installed.\n\n\n## Usage\n\nMuch more information is available via `bower help` once it\'s installed. This\nis just enough to get you started.\n\n### Installing packages and dependencies\n\nBower offers several ways to install packages:\n\n#####Using the dependencies listed in the current directory\'s bower.json\n```\nbower install\n```\n##### Using a local or remote package\n```\nbower install <package>\n```\n##### Using a specific version of a package\n```\nbower install <package>#<version>\n```\n##### Using a different name and a specific version of a package\n```\nbower install <name>=<package>#<version>\n```\n\nWhere `<package>` can be any one of the following:\n\n* A name that maps to a package registered with Bower, e.g, `jquery`. ‡\n* A public remote Git endpoint, e.g., ```git://github.com/someone/some-package.git```. ‡\n* A private Git repository, e.g., ```https://github.com/someone/some-package.git```. If the protocol is https, a prompt will ask for the credentials. ssh can also be used, e.g., ```git@github.com:someone/some-package.git``` and can authenticate with the user\'s ssh public/private keys. ‡\n* A local endpoint, i.e., a folder that\'s a Git repository. ‡\n* A public remote Subversion endpoint, e.g., ```svn+http://package.googlecode.com/svn/```. ‡\n* A private Subversion repository, e.g., ```svn+ssh://package.googlecode.com/svn/```. ‡\n* A local endpoint, i.e., a folder that\'s an Subversion repository, e.g., ```svn+file:///path/to/svn/```. ‡\n* A shorthand endpoint, e.g., `someone/some-package` (defaults to GitHub). ‡\n* A URL to a file, including `zip` and `tar` files. Its contents will be\n  extracted.\n\n‡ These types of `<package>` might have versions available. You can specify a\n[semver](http://semver.org/) compatible version to fetch a specific release, and lock the\npackage to that version. You can also specify a [range](https://github.com/isaacs/node-semver#ranges) of versions.\n\nIf you are using a package that is a git endpoint, you may use any tag, commit SHA,\nor branch name as a version. For example: `<package>#<sha>`. Using branches is not\nrecommended because the HEAD does not reference a fixed commit SHA.\n\nIf you are using a package that is a subversion endpoint, you may use any tag, revision number,\nor branch name as a version. For example: `<package>#<revision>`.\n\nAll package contents are installed in the `bower_components` directory by default.\nYou should **never** directly modify the contents of this directory.\n\nUsing `bower list` will show all the packages that are installed locally.\n\n**N.B.** If you aren\'t authoring a package that is intended to be consumed by\nothers (e.g., you\'re building a web app), you should always [check installed\npackages into source control](http://addyosmani.com/blog/checking-in-front-end-dependencies/).\n\n\n### Custom install directory\n\nA custom install location can be set in a `.bowerrc` file using the `directory` property. The .bowerrc file should be a sibling of your project\'s bower.json.\n\n```json\n{\n  "directory": "public/bower_components"\n}\n```\n\n\n### Finding packages\n\nTo search for packages registered with Bower:\n\n```\nbower search [<name>]\n```\n\nUsing just `bower search` will list all packages in the registry.\n\n### Using packages\n\nThe easiest approach is to use Bower statically, just reference the package\'s\ninstalled components manually using a `script` tag:\n\n```html\n<script src="/bower_components/jquery/jquery.js"></script>\n```\n\nFor more complex projects, you\'ll probably want to concatenate your scripts or\nuse a module loader. Bower is just a package manager, but there are plenty of\nother tools -- such as [Sprockets](https://github.com/sstephenson/sprockets)\nand [RequireJS](http://requirejs.org/) -- that will help you do this.\n\n### Uninstalling packages\n\nTo uninstall a locally installed package:\n\n```\nbower uninstall <package-name>\n```\n\n\n#### Warning\n\nOn `prezto` or `oh-my-zsh`, do not forget to `alias bower=\'noglob bower\'` or `bower install jquery\\#1.9.1`\n\n#### Running commands with sudo\n\nBower is a user command, there is no need to execute it with superuser permissions.\nHowever, if you still want to run commands with sudo, use `--allow-root` option.\n\n#### A note for Windows users\n\nTo use Bower on Windows, you must install\n[msysgit](http://code.google.com/p/msysgit/) correctly. Be sure to check the\noption shown below:\n\n![msysgit](http://f.cl.ly/items/2V2O3i1p3R2F1r2v0a12/mysgit.png)\n\nNote that if you use TortoiseGit and if Bower keeps asking for your SSH\npassword, you should add the following environment variable: `GIT_SSH -\nC:\\Program Files\\TortoiseGit\\bin\\TortoisePlink.exe`. Adjust the `TortoisePlink`\npath if needed.\n\n### Using bower\'s cache\n\nBower supports installing packages from its local cache (without internet connection), if the packages were installed before.\n```\nbower install <package-name> --offline\n```\nThe content of the cache can be listed with:\n```\nbower cache list\n```\nThe cache can be cleaned with:\n```\nbower cache clean\n```\n\n## Configuration\n\nBower can be configured using JSON in a `.bowerrc` file.\n\nThe current spec can be read\n[here](https://docs.google.com/document/d/1APq7oA9tNao1UYWyOm8dKqlRP2blVkROYLZ2fLIjtWc/edit#heading=h.4pzytc1f9j8k)\nin the `Configuration` section.\n\n## Running on a continuous integration server\n\nBower will skip some interactive and analytics operations if it finds a `CI` environmental variable set to `true`. You will find that the `CI` variable is already set for you on many continuous integration servers, e.g., [CircleCI](https://circleci.com/docs/environment-variables#basics) and [Travis-CI](http://docs.travis-ci.com/user/ci-environment/#Environment-variables).\n\nYou may try to set manually set `CI` variable manually before running your Bower commands. On Mac or Linux, `export CI=true` and on Windows `set CI=true`\n\n### Interactive configuration\n\nIf for some reason you are unable to set the `CI` environment variable, you can alternately use the `--config.interactive=false` flag. (`bower install --config.interactive=false`)\n\n## Defining a package\n\nYou must create a `bower.json` in your project\'s root, and specify all of its\ndependencies. This is similar to Node\'s `package.json`, or Ruby\'s `Gemfile`,\nand is useful for locking down a project\'s dependencies.\n\n*NOTE:* In versions of Bower before 0.9.0 the package metadata file was called\n`component.json` rather than `bower.json`. This has changed to avoid a name\nclash with another tool. You can still use `component.json` for now but it is\ndeprecated and the automatic fallback is likely to be removed in an upcoming\nrelease.\n\nYou can interactively create a `bower.json` with the following command:\n\n```\nbower init\n```\n\nThe `bower.json` defines several options:\n\n* `name` (required): The name of your package.\n* `version`: A semantic version number (see [semver](http://semver.org/)).\n* `main` [string|array]: The primary endpoints of your package.\n* `ignore` [array]: An array of paths not needed in production that you want\n  Bower to ignore when installing your package.\n* `dependencies` [hash]: Packages your package depends upon in production.\n  Note that you can specify [ranges](https://github.com/isaacs/node-semver#ranges)\n  of versions for your dependencies.\n* `devDependencies` [hash]: Development dependencies.\n* `private` [boolean]: Set to true if you want to keep the package private and\n  do not want to register the package in future.\n\n```json\n{\n  "name": "my-project",\n  "version": "1.0.0",\n  "main": "path/to/main.css",\n  "ignore": [\n    ".jshintrc",\n    "**/*.txt"\n  ],\n  "dependencies": {\n    "<name>": "<version>",\n    "<name>": "<folder>",\n    "<name>": "<package>"\n  },\n  "devDependencies": {\n    "<test-framework-name>": "<version>"\n  }\n}\n```\n\n### Registering packages\n\nTo register a new package:\n\n* There **must** be a valid manifest JSON in the current working directory.\n* Your package should use [semver](http://semver.org/) Git tags.\n* Your package **must** be available at a Git endpoint (e.g., GitHub); remember\n  to push your Git tags!\n\nThen use the following command:\n\n```\nbower register <my-package-name> <git-endpoint>\n```\n\nThe Bower registry does not have authentication or user management at this point\nin time. It\'s on a first come, first served basis. Think of it like a URL\nshortener. Now anyone can run `bower install <my-package-name>`, and get your\nlibrary installed.\n\nThere is no direct way to unregister a package yet. For now, you can [request a\npackage be unregistered](https://github.com/bower/bower/issues/120).\n\n\n## Consuming a package\n\nBower also makes available a source mapping. This can be used by build tools to\neasily consume Bower packages.\n\nIf you pass the `--paths` option to Bower\'s `list` command, you will get a\nsimple path-to-name mapping:\n\n```json\n{\n  "backbone": "bower_components/backbone/index.js",\n  "jquery": "bower_components/jquery/index.js",\n  "underscore": "bower_components/underscore/index.js"\n}\n```\n\nAlternatively, every command supports the `--json` option that makes bower\noutput JSON. Command result is outputted to `stdout` and error/logs to\n`stderr`.\n\n\n## Programmatic API\n\nBower provides a powerful, programmatic API. All commands can be accessed\nthrough the `bower.commands` object.\n\n```js\nvar bower = require(\'bower\');\n\nbower.commands\n.install([\'jquery\'], { save: true }, { /* custom config */ })\n.on(\'end\', function (installed) {\n    console.log(installed);\n});\n\nbower.commands\n.search(\'jquery\', {})\n.on(\'end\', function (results) {\n    console.log(results);\n});\n```\n\nCommands emit four types of events: `log`, `prompt`, `end`, `error`.\n\n* `log` is emitted to report the state/progress of the command.\n* `prompt` is emitted whenever the user needs to be prompted.\n* `error` will only be emitted if something goes wrong.\n* `end` is emitted when the command successfully ends.\n\nFor a better of idea how this works, you may want to check out [our bin\nfile](https://github.com/bower/bower/blob/master/bin/bower).\n\nWhen using bower programmatically, prompting is disabled by default. Though you can enable it when calling commands with `interactive: true` in the config.\nThis requires you to listen for the `prompt` event and handle the prompting yourself. The easiest way is to use the [inquirer](https://npmjs.org/package/inquirer) npm module like so:\n\n```js\nvar inquirer =  require(\'inquirer\');\n\nbower.commands\n.install([\'jquery\'], { save: true }, { interactive: true })\n// ..\n.on(\'prompt\', function (prompts, callback) {\n    inquirer.prompt(prompts, callback);\n});\n```\n\n\n## Completion (experimental)\n\n_NOTE_: Completion is still not implemented for the 1.0.0 release\n\nBower now has an experimental `completion` command that is based on, and works\nsimilarly to the [npm completion](https://npmjs.org/doc/completion.html). It is\nnot available for Windows users.\n\nThis command will output a Bash / ZSH script to put into your `~/.bashrc`,\n`~/.bash_profile`, or `~/.zshrc` file.\n\n```\nbower completion >> ~/.bash_profile\n```\n\n\n## Contact\n\nHave a question?\n\n* [StackOverflow](http://stackoverflow.com/questions/tagged/bower)\n* [Mailinglist](http://groups.google.com/group/twitter-bower) - twitter-bower@googlegroups.com\n* [\\#bower](http://webchat.freenode.net/?channels=bower) on Freenode\n\n\n## Contributing to this project\n\nAnyone and everyone is welcome to contribute. Please take a moment to\nreview the [guidelines for contributing](CONTRIBUTING.md).\n\n* [Bug reports](CONTRIBUTING.md#bugs)\n* [Feature requests](CONTRIBUTING.md#features)\n* [Pull requests](CONTRIBUTING.md#pull-requests)\n\n\n## Bower Team\n\n### Core team\n\n* [@satazor](https://github.com/satazor)\n* [@wibblymat](https://github.com/wibblymat)\n* [@paulirish](https://github.com/paulirish)\n* [@benschwarz](https://github.com/benschwarz)\n* [@sindresorhus](https://github.com/sindresorhus)\n* [@svnlto](https://github.com/svnlto)\n\nThanks for assistance and contributions:\n\n[@addyosmani](https://github.com/addyosmani),\n[@ahmadnassri](https://github.com/ahmadnassri),\n[@angus-c](https://github.com/angus-c),\n[@borismus](https://github.com/borismus),\n[@carsonmcdonald](https://github.com/carsonmcdonald),\n[@chriseppstein](https://github.com/chriseppstein),\n[@danwrong](https://github.com/danwrong),\n[@davidmaxwaterman](https://github.com/davidmaxwaterman),\n[@desandro](https://github.com/desandro),\n[@hemanth](https://github.com/hemanth),\n[@isaacs](https://github.com/isaacs),\n[@josh](https://github.com/josh),\n[@jrburke](https://github.com/jrburke),\n[@kennethklee](https://github.com/kennethklee),\n[@marcelombc](https://github.com/marcelombc),\n[@marcooliveira](https://github.com/marcooliveira),\n[@mklabs](https://github.com/mklabs),\n[@MrDHat](https://github.com/MrDHat),\n[@necolas](https://github.com/necolas),\n[@richo](https://github.com/richo),\n[@rvagg](https://github.com/rvagg),\n[@ryanflorence](https://github.com/ryanflorence),\n[@SlexAxton](https://github.com/SlexAxton),\n[@sstephenson](https://github.com/sstephenson),\n[@tomdale](https://github.com/tomdale),\n[@uzquiano](https://github.com/uzquiano),\n[@visionmedia](https://github.com/visionmedia),\n[@wagenet](https://github.com/wagenet),\n[@wycats](https://github.com/wycats)\n\n### Bower Alumni\n\n* [@fat](https://github.com/fat)\n* [@maccman](https://github.com/maccman)\n\n\n## License\n\nCopyright (c) 2014 Twitter and other contributors\n\nLicensed under the MIT License\n',
+1064 silly resolved     readmeFilename: 'README.md',
+1064 silly resolved     _id: 'bower@1.3.2',
+1064 silly resolved     dist: { shasum: '35925cf66c929bb0069a64e2bfa690dd80243819' },
+1064 silly resolved     _from: 'bower@1.3.2' } ]
+1065 info install bower@1.3.2 into /usr/local/lib
+1066 info installOne bower@1.3.2
+1067 warn engine bower@1.3.2: wanted: {"node":">=0.10.0"} (current: {"node":"v0.8.15","npm":"1.1.66"})
+1068 verbose from cache /Users/piermariacosina/.npm/bower/1.3.2/package/package.json
+1069 info /usr/local/lib/node_modules/bower unbuild
+1070 verbose from cache /usr/local/lib/node_modules/bower/package.json
+1071 info preuninstall bower@1.2.8
+1072 info uninstall bower@1.2.8
+1073 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild bower@1.2.8
+1074 verbose /usr/local/bin,[object Object] binRoot
+1075 info /usr/local/lib/node_modules/bower unbuild
+1076 verbose read json /usr/local/lib/node_modules/bower/package.json
+1077 info preuninstall bower@1.2.8
+1078 info uninstall bower@1.2.8
+1079 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild bower@1.2.8
+1080 verbose /usr/local/bin,[object Object] binRoot
+1081 error error rolling back Error: EPERM, chmod '/usr/local/bin/bower'
+1081 error error rolling back  bower@1.3.2 { [Error: EPERM, chmod '/usr/local/bin/bower'] errno: 50, code: 'EPERM', path: '/usr/local/bin/bower' }
+1082 error Error: EPERM, chmod '/usr/local/bin/bower'
+1082 error  { [Error: EPERM, chmod '/usr/local/bin/bower'] errno: 50, code: 'EPERM', path: '/usr/local/bin/bower' }
+1083 error Please try running this command again as root/Administrator.
+1084 error System Darwin 13.1.0
+1085 error command "node" "/usr/local/bin/npm" "update" "-g" "bower"
+1086 error cwd /Users/piermariacosina/Documents/middleman/italiastartupvisa
+1087 error node -v v0.8.15
+1088 error npm -v 1.1.66
+1089 error path /usr/local/bin/bower
+1090 error code EPERM
+1091 error errno 50
+1092 error stack Error: EPERM, chmod '/usr/local/bin/bower'
+1093 verbose exit [ 50, true ]

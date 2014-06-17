@@ -1,0 +1,61 @@
+-# coding: utf-8
+!!!5
+/[if lt IE 7] <html class="no-js ie6 oldie" lang=""en" xml:lang="en"">
+/[if IE 7] <html class="no-js ie7 oldie" lang=""en" xml:lang="en"">
+/[if IE 8] <html class="no-js ie8 oldie" lang=""en" xml:lang="en"">
+/[if IE 9] <html class="no-js ie9 oldie" lang=""en" xml:lang="en"">
+/[if gt IE 8] <html class="no-js newie" lang='"en" xml:lang="en"'>
+%html.no-js{lang:"it",:"xmlns:fb" => "http://ogp.me/ns/fb#"}
+  %head
+    %meta{:charset => "utf-8"}
+
+    %title
+      = page_title
+
+    %meta{content: "", name: "description"}/
+    %meta{content: "ThemeStreet.Net", name: "author"}/
+    %meta{content: "width=device-width", name: "viewport"}/
+
+    %link{ rel: "apple-touch-icon", sizes: "152x152", href: "apple-touch-icon-152x152-precomposed.png?v=1" }
+    %link{ rel: "apple-touch-icon", sizes: "144x144", href: "apple-touch-icon-144x144-precomposed.png?v=1" }
+    %link{ rel: "apple-touch-icon", sizes: "114x114", href: "apple-touch-icon-114x114-precomposed.png?v=1" }
+    %link{ rel: "apple-touch-icon", sizes: "72x72", href: "apple-touch-icon-72x72-precomposed.png?v=1" }
+    %link{ rel: "apple-touch-icon", href: "apple-touch-icon-precomposed.png?v=1" }
+    %link{ rel: "shortcut icon", href: "favicon.png?v=1" }
+    %link{ rel: "icon", type: "image/ico", href: "favicon.ico?v=1" }
+
+    = javascript_include_tag "vendor/modernizr-2.6.2"
+    %link{href: "http://fonts.googleapis.com/css?family=Lato:300,400,700", rel: "stylesheet", type: "text/css"}/
+    %link{href: "css/style.css", rel: "stylesheet"}/
+    %link{href: "css/min768.css", media: "(min-width: 768px)", rel: "stylesheet"}/
+    
+    / <link rel="icon" type="image/png" href="favicon.png" />
+    
+    / Internet Explorer 8 or older doesn't support media query. This script helps ie7 and ie8 to recognize media queries
+    /[if lt IE 9]
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    = javascript_include_tag "vendor/jquery-1.10.2.min"
+    :javascript
+      $(window).load(function() {
+        $(".loader").fadeOut("slow");
+      })
+  %body#top
+    = partial'partials/tag-manager'
+    :javascript
+      (function (d, t) {
+      var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      bh.type = 'text/javascript';
+      bh.src = '//www.bugherd.com/sidebarv2.js?apikey=d6j8wquafcaexrwm91lwgw';
+      s.parentNode.insertBefore(bh, s);
+      })(document, 'script');
+    = yield
+
+    %script{src: "https://maps.googleapis.com/maps/api/js?sensor=true"}
+
+    = javascript_include_tag "site"
+
+
+
+
+
+
