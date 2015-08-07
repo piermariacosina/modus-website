@@ -12,6 +12,7 @@ gem 'oj'
 gem "wdm", :platforms => [:mswin, :mingw]
 
 gem "susy"
+gem 'compass-rails'
 gem "compass-h5bp"
 gem "builder"
 gem 'rack-cors', :require => 'rack/cors'
